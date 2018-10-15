@@ -1,6 +1,6 @@
 # 基础乐理练习
 
-![License](https://img.shields.io/github/license/mashape/apistatus.svg)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 
 ## 为什么做这个？
 
