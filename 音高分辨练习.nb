@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     79877,       1900]
-NotebookOptionsPosition[     78434,       1842]
-NotebookOutlinePosition[     78801,       1858]
-CellTagsIndexPosition[     78758,       1855]
+NotebookDataLength[    201852,       3784]
+NotebookOptionsPosition[    200013,       3712]
+NotebookOutlinePosition[    200380,       3728]
+CellTagsIndexPosition[    200337,       3725]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -321,7 +321,7 @@ Cell[BoxData[{
  CellChangeTimes->{{3.7484465689833813`*^9, 3.748446633070286*^9}, {
   3.748446671350206*^9, 3.748446676522234*^9}, {3.7484773809210453`*^9, 
   3.748477381441667*^9}, {3.748477596394047*^9, 3.748477610768723*^9}}]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -341,52 +341,52 @@ Cell[BoxData[
      GridBox[{{
         ButtonBox["\"\:91cd\:65b0\:64ad\:653e\"", ButtonFunction :> (EmitSound[
             Part[$CellContext`raw$1406, 1]]; 
-          If[$CellContext`enext$1409 == False, 
-            Increment[$CellContext`repeat$1409]]), Appearance -> Automatic, 
+          If[$CellContext`enext$1408 == False, 
+            Increment[$CellContext`repeat$1408]]), Appearance -> Automatic, 
          Evaluator -> Automatic, Method -> "Preemptive"]}, {
         TagBox[
          GridBox[{{
             ButtonBox[
             "\"\:5bfc\:51fa\"", 
              ButtonFunction :> ($CellContext`trainData = \
-{$CellContext`repeat$1409, 
+{$CellContext`repeat$1408, 
                 
-                Transpose[{$CellContext`questions$1409, \
-$CellContext`truefalse$1409}]}), Appearance -> Automatic, Evaluator -> 
+                Transpose[{$CellContext`questions$1408, \
+$CellContext`truefalse$1408}]}), Appearance -> Automatic, Evaluator -> 
              Automatic, Method -> "Preemptive"], 
             ButtonBox[
              DynamicBox[
-              ToBoxes[$CellContext`name1$1409, StandardForm]], 
-             ButtonFunction :> (AppendTo[$CellContext`questions$1409, 
+              ToBoxes[$CellContext`name1$1408, StandardForm]], 
+             ButtonFunction :> (AppendTo[$CellContext`questions$1408, 
                 Part[$CellContext`raw$1406, 2]]; 
-              AppendTo[$CellContext`truefalse$1409, 
+              AppendTo[$CellContext`truefalse$1408, 
                 Part[$CellContext`raw$1406, 2, 1] > 
                 Part[$CellContext`raw$1406, 2, 2]]; If[
                 
-                Part[$CellContext`truefalse$1409, -1], $CellContext`raw$1406 = \
+                Part[$CellContext`truefalse$1408, -1], $CellContext`raw$1406 = \
 $CellContext`TwoPitch["data"]; EmitSound[
-                  Part[$CellContext`raw$1406, 1]]; $CellContext`enext$1409 = 
-                 False, $CellContext`enext$1409 = 
-                 True; $CellContext`e1$1409 = ($CellContext`e2$1409 = 
-                  False); $CellContext`name2$1409 = "[2]"]), Enabled -> 
-             Dynamic[$CellContext`e1$1409], Appearance -> Automatic, 
+                  Part[$CellContext`raw$1406, 1]]; $CellContext`enext$1408 = 
+                 False, $CellContext`enext$1408 = 
+                 True; $CellContext`e1$1408 = ($CellContext`e2$1408 = 
+                  False); $CellContext`name2$1408 = "[2]"]), Enabled -> 
+             Dynamic[$CellContext`e1$1408], Appearance -> Automatic, 
              Evaluator -> Automatic, Method -> "Preemptive"], 
             ButtonBox[
              DynamicBox[
-              ToBoxes[$CellContext`name2$1409, StandardForm]], 
-             ButtonFunction :> (AppendTo[$CellContext`questions$1409, 
+              ToBoxes[$CellContext`name2$1408, StandardForm]], 
+             ButtonFunction :> (AppendTo[$CellContext`questions$1408, 
                 Part[$CellContext`raw$1406, 2]]; 
-              AppendTo[$CellContext`truefalse$1409, 
+              AppendTo[$CellContext`truefalse$1408, 
                 Part[$CellContext`raw$1406, 2, 1] < 
                 Part[$CellContext`raw$1406, 2, 2]]; If[
                 
-                Part[$CellContext`truefalse$1409, -1], $CellContext`raw$1406 = \
+                Part[$CellContext`truefalse$1408, -1], $CellContext`raw$1406 = \
 $CellContext`TwoPitch["data"]; EmitSound[
-                  Part[$CellContext`raw$1406, 1]]; $CellContext`enext$1409 = 
-                 False, $CellContext`enext$1409 = 
-                 True; $CellContext`e1$1409 = ($CellContext`e2$1409 = 
-                  False); $CellContext`name1$1409 = "[1]"]), Enabled -> 
-             Dynamic[$CellContext`e2$1409], Appearance -> Automatic, 
+                  Part[$CellContext`raw$1406, 1]]; $CellContext`enext$1408 = 
+                 False, $CellContext`enext$1408 = 
+                 True; $CellContext`e1$1408 = ($CellContext`e2$1408 = 
+                  False); $CellContext`name1$1408 = "[1]"]), Enabled -> 
+             Dynamic[$CellContext`e2$1408], Appearance -> Automatic, 
              Evaluator -> Automatic, Method -> "Preemptive"], 
             ButtonBox[
             "\">\"", 
@@ -394,10 +394,10 @@ $CellContext`TwoPitch["data"]; EmitSound[
                 "data"]; EmitSound[
                 
                 Part[$CellContext`raw$1406, 
-                 1]]; $CellContext`e1$1409 = ($CellContext`e2$1409 = 
-                True); $CellContext`enext$1409 = 
-               False; $CellContext`name1$1409 = "1"; $CellContext`name2$1409 = 
-               "2"), Enabled -> Dynamic[$CellContext`enext$1409], Appearance -> 
+                 1]]; $CellContext`e1$1408 = ($CellContext`e2$1408 = 
+                True); $CellContext`enext$1408 = 
+               False; $CellContext`name1$1408 = "1"; $CellContext`name2$1408 = 
+               "2"), Enabled -> Dynamic[$CellContext`enext$1408], Appearance -> 
              Automatic, Evaluator -> Automatic, Method -> "Preemptive"]}}, 
           RowSpacings -> 1, ColumnSpacings -> 3, RowAlignments -> Center, 
           ColumnAlignments -> Center], 
@@ -408,74 +408,74 @@ $CellContext`TwoPitch["data"]; EmitSound[
           ToBoxes[
            StringTemplate[
            "\:6b63\:786e:``, \:9519\:8bef:``, \:767e\:5206\:6bd4: ``%"][
-            Count[$CellContext`truefalse$1409, True], 
-            Count[$CellContext`truefalse$1409, False], 
-            100 (Count[$CellContext`truefalse$1409, True]/If[
-             Length[$CellContext`truefalse$1409] > 0, 
-              Length[$CellContext`truefalse$1409], 1])], StandardForm]], 
+            Count[$CellContext`truefalse$1408, True], 
+            Count[$CellContext`truefalse$1408, False], 
+            100 (Count[$CellContext`truefalse$1408, True]/If[
+             Length[$CellContext`truefalse$1408] > 0, 
+              Length[$CellContext`truefalse$1408], 1])], StandardForm]], 
          Function[BoxForm`e$, 
           TableForm[BoxForm`e$]]]}}, RowAlignments -> Baseline, 
       ColumnAlignments -> Center, RowSpacings -> 1, ColumnSpacings -> 3], 
      TableForm[{{
         Button["\:91cd\:65b0\:64ad\:653e", EmitSound[
            Part[$CellContext`raw$1406, 1]]; 
-         If[$CellContext`enext$1409 == False, 
-           Increment[$CellContext`repeat$1409]]]}, {
+         If[$CellContext`enext$1408 == False, 
+           Increment[$CellContext`repeat$1408]]]}, {
         TableForm[{{
            Button[
-           "\:5bfc\:51fa", $CellContext`trainData = {$CellContext`repeat$1409, 
+           "\:5bfc\:51fa", $CellContext`trainData = {$CellContext`repeat$1408, 
               
-              Transpose[{$CellContext`questions$1409, \
-$CellContext`truefalse$1409}]}], 
+              Transpose[{$CellContext`questions$1408, \
+$CellContext`truefalse$1408}]}], 
            Button[
-            Dynamic[$CellContext`name1$1409], 
-            AppendTo[$CellContext`questions$1409, 
+            Dynamic[$CellContext`name1$1408], 
+            AppendTo[$CellContext`questions$1408, 
               Part[$CellContext`raw$1406, 2]]; 
-            AppendTo[$CellContext`truefalse$1409, 
+            AppendTo[$CellContext`truefalse$1408, 
               Part[$CellContext`raw$1406, 2, 1] > 
               Part[$CellContext`raw$1406, 2, 2]]; If[
               
-              Part[$CellContext`truefalse$1409, -1], $CellContext`raw$1406 = \
+              Part[$CellContext`truefalse$1408, -1], $CellContext`raw$1406 = \
 $CellContext`TwoPitch["data"]; EmitSound[
-                Part[$CellContext`raw$1406, 1]]; $CellContext`enext$1409 = 
-               False, $CellContext`enext$1409 = 
-               True; $CellContext`e1$1409 = ($CellContext`e2$1409 = 
-                False); $CellContext`name2$1409 = "[2]"], Enabled -> 
-            Dynamic[$CellContext`e1$1409]], 
+                Part[$CellContext`raw$1406, 1]]; $CellContext`enext$1408 = 
+               False, $CellContext`enext$1408 = 
+               True; $CellContext`e1$1408 = ($CellContext`e2$1408 = 
+                False); $CellContext`name2$1408 = "[2]"], Enabled -> 
+            Dynamic[$CellContext`e1$1408]], 
            Button[
-            Dynamic[$CellContext`name2$1409], 
-            AppendTo[$CellContext`questions$1409, 
+            Dynamic[$CellContext`name2$1408], 
+            AppendTo[$CellContext`questions$1408, 
               Part[$CellContext`raw$1406, 2]]; 
-            AppendTo[$CellContext`truefalse$1409, 
+            AppendTo[$CellContext`truefalse$1408, 
               Part[$CellContext`raw$1406, 2, 1] < 
               Part[$CellContext`raw$1406, 2, 2]]; If[
               
-              Part[$CellContext`truefalse$1409, -1], $CellContext`raw$1406 = \
+              Part[$CellContext`truefalse$1408, -1], $CellContext`raw$1406 = \
 $CellContext`TwoPitch["data"]; EmitSound[
-                Part[$CellContext`raw$1406, 1]]; $CellContext`enext$1409 = 
-               False, $CellContext`enext$1409 = 
-               True; $CellContext`e1$1409 = ($CellContext`e2$1409 = 
-                False); $CellContext`name1$1409 = "[1]"], Enabled -> 
-            Dynamic[$CellContext`e2$1409]], 
+                Part[$CellContext`raw$1406, 1]]; $CellContext`enext$1408 = 
+               False, $CellContext`enext$1408 = 
+               True; $CellContext`e1$1408 = ($CellContext`e2$1408 = 
+                False); $CellContext`name1$1408 = "[1]"], Enabled -> 
+            Dynamic[$CellContext`e2$1408]], 
            Button[
            ">", $CellContext`raw$1406 = $CellContext`TwoPitch["data"]; 
             EmitSound[
               
               Part[$CellContext`raw$1406, 
-               1]]; $CellContext`e1$1409 = ($CellContext`e2$1409 = 
-              True); $CellContext`enext$1409 = False; $CellContext`name1$1409 = 
-             "1"; $CellContext`name2$1409 = "2", Enabled -> 
-            Dynamic[$CellContext`enext$1409]]}}, TableAlignments -> Center]}, 
+               1]]; $CellContext`e1$1408 = ($CellContext`e2$1408 = 
+              True); $CellContext`enext$1408 = False; $CellContext`name1$1408 = 
+             "1"; $CellContext`name2$1408 = "2", Enabled -> 
+            Dynamic[$CellContext`enext$1408]]}}, TableAlignments -> Center]}, 
        
        TableForm[
         Dynamic[
          StringTemplate[
          "\:6b63\:786e:``, \:9519\:8bef:``, \:767e\:5206\:6bd4: ``%"][
-          Count[$CellContext`truefalse$1409, True], 
-          Count[$CellContext`truefalse$1409, False], 
-          100 (Count[$CellContext`truefalse$1409, True]/If[
-           Length[$CellContext`truefalse$1409] > 0, 
-            Length[$CellContext`truefalse$1409], 1])]]]}, TableAlignments -> 
+          Count[$CellContext`truefalse$1408, True], 
+          Count[$CellContext`truefalse$1408, False], 
+          100 (Count[$CellContext`truefalse$1408, True]/If[
+           Length[$CellContext`truefalse$1408] > 0, 
+            Length[$CellContext`truefalse$1408], 1])]]]}, TableAlignments -> 
       Center]]],"\"\:6bd4\:8f83\:97f3\:9ad8\""},
   "Labeled",
   DisplayFunction->(GridBox[{{
@@ -513,7 +513,7 @@ $CellContext`TwoPitch["data"]; EmitSound[
    3.7484504276433563`*^9, {3.748450572788971*^9, 3.748450587884881*^9}, 
    3.748465917997038*^9, 3.7484661463544083`*^9, {3.748477393992548*^9, 
    3.748477399994501*^9}, 3.7484776694770823`*^9, 3.748529437366392*^9, 
-   3.748616679709505*^9}]
+   3.748616679709505*^9, 3.7487003333916597`*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
@@ -548,7 +548,8 @@ pitchHighTraindata.mx\"\>"], "Output",
  CellChangeTimes->{{3.74845055735893*^9, 3.7484506084534283`*^9}, 
    3.748450895347988*^9, {3.7484510228444357`*^9, 3.748451037344955*^9}, 
    3.748451126010619*^9, 3.74846658657178*^9, 3.748479101243948*^9, 
-   3.748529804608605*^9, 3.7485299347825737`*^9, 3.748616997977755*^9}]
+   3.748529804608605*^9, 3.7485299347825737`*^9, 3.748616997977755*^9, 
+   3.748700724827462*^9}]
 }, Open  ]]
 }, Open  ]],
 
@@ -568,7 +569,7 @@ Cell["\:6210\:7ee9\:5206\:6790\:51fd\:6570", "Subsubsection",
  CellChangeTimes->{{3.748466848369993*^9, 3.748466849932231*^9}, {
   3.748479852347231*^9, 3.748479856485836*^9}}],
 
-Cell[BoxData[
+Cell[BoxData[{
  RowBox[{
   RowBox[{"TrainReport", "[", "db_", "]"}], ":=", 
   RowBox[{"Module", "[", 
@@ -760,13 +761,137 @@ Cell[BoxData[
                RowBox[{
                "PlotLabel", "\[Rule]", "\"\<\:9519\:8bef\:5206\:6790\>\""}]}],
                "]"}]}]}], "\[IndentingNewLine]", "]"}]}], "}"}]}], "}"}], 
-      ")"}]}]}], "\[IndentingNewLine]", "]"}]}]], "Input",
+      ")"}]}]}], "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"TrainReport", "[", 
+   RowBox[{"db_", ",", "\"\<Data\>\""}], "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"accuracy", "=", 
+       RowBox[{"TimeSeries", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+             "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], ",", 
+             FractionBox[
+              RowBox[{"Count", "[", 
+               RowBox[{
+                RowBox[{"#", "\[LeftDoubleBracket]", 
+                 RowBox[{"2", ",", "2"}], "\[RightDoubleBracket]"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"_", ",", "True"}], "}"}]}], "]"}], 
+              RowBox[{"Length", "[", 
+               RowBox[{"#", "\[LeftDoubleBracket]", 
+                RowBox[{"2", ",", "2"}], "\[RightDoubleBracket]"}], "]"}]]}], 
+            "}"}], ")"}], "&"}], "/@", "db"}], "]"}]}], ",", 
+      RowBox[{"repeat", "=", 
+       RowBox[{"TimeSeries", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"(", 
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{
+             "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], ",", 
+             FractionBox[
+              RowBox[{"#", "\[LeftDoubleBracket]", 
+               RowBox[{"2", ",", "1"}], "\[RightDoubleBracket]"}], 
+              RowBox[{"Length", "[", 
+               RowBox[{"#", "\[LeftDoubleBracket]", 
+                RowBox[{"2", ",", "2"}], "\[RightDoubleBracket]"}], "]"}]]}], 
+            "}"}], ")"}], "&"}], "/@", "db"}], "]"}]}]}], "}"}], ",", 
+    "\[IndentingNewLine]", 
+    RowBox[{"{", 
+     RowBox[{"accuracy", ",", "repeat", ",", 
+      RowBox[{"Module", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"raw", "=", 
+           RowBox[{"Flatten", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{
+               RowBox[{"#", "\[LeftDoubleBracket]", 
+                RowBox[{"2", ",", "2"}], "\[RightDoubleBracket]"}], "&"}], "/@",
+               "db"}], ",", "1"}], "]"}]}], ",", "pitchdiff", ",", "dict"}], 
+         "}"}], ",", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"pitchdiff", "=", 
+          RowBox[{"Sort", "@", 
+           RowBox[{"Tally", "[", 
+            RowBox[{
+             RowBox[{
+              RowBox[{
+               RowBox[{
+               "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+               "-", 
+               RowBox[{
+               "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], 
+              "&"}], "/@", 
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{
+                RowBox[{"Select", "[", 
+                 RowBox[{"raw", ",", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{
+                    "#", "\[LeftDoubleBracket]", "2", 
+                    "\[RightDoubleBracket]"}], "\[Equal]", "False"}], "&"}]}],
+                  "]"}], "\[Transpose]"}], "\[LeftDoubleBracket]", "1", 
+               "\[RightDoubleBracket]"}], ")"}]}], "]"}]}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"dict", "=", 
+          RowBox[{"\[LeftAssociation]", 
+           RowBox[{
+            RowBox[{
+             RowBox[{
+              RowBox[{
+              "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+              "\[Rule]", 
+              RowBox[{
+              "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}]}], 
+             "&"}], "/@", 
+            RowBox[{"Tally", "[", 
+             RowBox[{
+              RowBox[{
+               RowBox[{
+                RowBox[{"#", "\[LeftDoubleBracket]", 
+                 RowBox[{"1", ",", "2"}], "\[RightDoubleBracket]"}], "-", 
+                RowBox[{"#", "\[LeftDoubleBracket]", 
+                 RowBox[{"1", ",", "1"}], "\[RightDoubleBracket]"}]}], "&"}], 
+              "/@", "raw"}], "]"}]}], "\[RightAssociation]"}]}], ";", 
+         "\[IndentingNewLine]", 
+         RowBox[{"pitchdiff", "=", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{
+              "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+              ",", 
+              FractionBox[
+               RowBox[{
+               "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+               RowBox[{"dict", "[", 
+                RowBox[{
+                "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}], 
+                "]"}]]}], "}"}], "&"}], "/@", "pitchdiff"}]}], ";", 
+         "\[IndentingNewLine]", "pitchdiff"}]}], "\[IndentingNewLine]", 
+       "]"}]}], "}"}]}], "\[IndentingNewLine]", "]"}]}]}], "Input",
  CellChangeTimes->{{3.748479169837439*^9, 3.7484791703373404`*^9}, {
   3.748479324405547*^9, 3.748479345397434*^9}, {3.7484796314519577`*^9, 
   3.748479649349803*^9}, {3.748479757152193*^9, 3.748479835880129*^9}, {
   3.748481251928055*^9, 3.748481265792862*^9}, {3.7484814884003963`*^9, 
-  3.748481520910801*^9}, {3.7484815539231987`*^9, 3.7484815563921947`*^9}}]
-}, Closed]],
+  3.748481520910801*^9}, {3.7484815539231987`*^9, 3.7484815563921947`*^9}, {
+  3.748700902195121*^9, 3.7487009632325077`*^9}}]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -786,17 +911,18 @@ Cell[BoxData[
        GraphicsComplexBox[{{3.74842592597506*^9, 7.099236641221374}, {
         3.748441386547292*^9, 8.468468468468469}, {3.748453901209715*^9, 
         8.558558558558559}, {3.748504734770735*^9, 8.92156862745098}, {
-        3.748591797959642*^9, 9.41747572815534}, {3.74842592597506*^9, 
-        7.099236641221374}, {3.748441386547292*^9, 8.468468468468469}, {
-        3.748453901209715*^9, 8.558558558558559}, {3.748504734770735*^9, 
-        8.92156862745098}, {3.748591797959642*^9, 
-        9.41747572815534}}, {{{}, {}, 
+        3.748591797959642*^9, 9.41747572815534}, {3.748675524794594*^9, 
+        9.134615384615385}, {3.74842592597506*^9, 7.099236641221374}, {
+        3.748441386547292*^9, 8.468468468468469}, {3.748453901209715*^9, 
+        8.558558558558559}, {3.748504734770735*^9, 8.92156862745098}, {
+        3.748591797959642*^9, 9.41747572815534}, {3.748675524794594*^9, 
+        9.134615384615385}}, {{{}, {}, 
           {RGBColor[0.9, 0.36, 0.054], PointSize[0.012833333333333334`], 
            AbsoluteThickness[1.6], CapForm["Butt"], 
-           LineBox[{6, 7, 8, 9, 10}]}}, {
+           LineBox[{7, 8, 9, 10, 11, 12}]}}, {
           {RGBColor[0.9, 0.36, 0.054], AbsolutePointSize[6], 
            AbsoluteThickness[1.6], CapForm["Butt"], 
-           PointBox[{1, 2, 3, 4, 5}]}, {}, {}}}], {}, {}, {{}, {}}},
+           PointBox[{1, 2, 3, 4, 5, 6}]}, {}, {}}}], {}, {}, {{}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{False, False},
       AxesLabel->{None, None},
@@ -826,249 +952,194 @@ Cell[BoxData[
               SlotSequence[1]}]& )[
              SlotSequence[1]], None, 5, {{0.0125, 0}, {0.0075, 0}}, None]& )[
             SlotSequence[1]], {Identity, Identity}]& }}, {{
-         Automatic, Automatic}, {{{3.7484208*^9, 
-            FormBox["\"12:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748464*^9, 
-            FormBox["\"00:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485072*^9, 
-            FormBox["\"12:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485504*^9, 
-            FormBox["\"00:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485936*^9, 
-            FormBox["\"12:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484316*^9, 
+         Automatic, Automatic}, {{{3.748464*^9, 
+            FormBox["\"Oct 14\"", TraditionalForm], {0.0125, 0.}}, {
+           3.7485504*^9, 
+            FormBox["\"Oct 15\"", TraditionalForm], {0.0125, 0.}}, {
+           3.7486368*^9, 
+            FormBox["\"Oct 16\"", TraditionalForm], {0.0125, 0.}}, {
+           3.7484208*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484424*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484424*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484532*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484856*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484748*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485072*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484856*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485288*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484964*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.748572*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748518*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485936*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485288*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486152*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485396*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486584*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485612*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {3.74868*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748572*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}}, {{
+           3.748464*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485828*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0125, 0.}}, {
+           3.7485504*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}}, {{3.7484208*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0125, 0.}}, {
+           3.7486368*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748464*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0125, 0.}}, {
+           3.7484208*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485072*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484424*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485504*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484856*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485936*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485072*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484316*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485288*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484424*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.748572*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484532*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485936*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484748*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486152*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484856*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486584*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484964*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {3.74868*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748518*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485288*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485396*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485612*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748572*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485828*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}}}}],
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}}}}],
       GridLines->{{0.}, {0}},
       GridLinesStyle->Directive[
         GrayLevel[0.5, 0.4]],
@@ -1085,7 +1156,7 @@ Cell[BoxData[
             (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
              Part[#, 2]]}& )}},
       PlotLabel->FormBox["\"\:7efc\:5408\:5f97\:5206\"", TraditionalForm],
-      PlotRange->{{3.74842592597506*^9, 3.748591797959642*^9}, {
+      PlotRange->{{3.74842592597506*^9, 3.748675524794594*^9}, {
        7.099236641221374, 9.41747572815534}},
       PlotRangeClipping->True,
       PlotRangePadding->{{
@@ -1097,15 +1168,16 @@ Cell[BoxData[
      GraphicsBox[{{}, 
        GraphicsComplexBox[{{3.74842592597506*^9, 93.}, {3.748441386547292*^9, 
         94.}, {3.748453901209715*^9, 95.}, {3.748504734770735*^9, 91.}, {
-        3.748591797959642*^9, 97.}, {3.74842592597506*^9, 93.}, {
-        3.748441386547292*^9, 94.}, {3.748453901209715*^9, 95.}, {
-        3.748504734770735*^9, 91.}, {3.748591797959642*^9, 97.}}, {{{}, {}, 
+        3.748591797959642*^9, 97.}, {3.748675524794594*^9, 95.}, {
+        3.74842592597506*^9, 93.}, {3.748441386547292*^9, 94.}, {
+        3.748453901209715*^9, 95.}, {3.748504734770735*^9, 91.}, {
+        3.748591797959642*^9, 97.}, {3.748675524794594*^9, 95.}}, {{{}, {}, 
           {RGBColor[0.9, 0.36, 0.054], PointSize[0.012833333333333334`], 
            AbsoluteThickness[1.6], CapForm["Butt"], 
-           LineBox[{6, 7, 8, 9, 10}]}}, {
+           LineBox[{7, 8, 9, 10, 11, 12}]}}, {
           {RGBColor[0.9, 0.36, 0.054], AbsolutePointSize[6], 
            AbsoluteThickness[1.6], CapForm["Butt"], 
-           PointBox[{1, 2, 3, 4, 5}]}, {}, {}}}], {}, {}, {{}, {}}},
+           PointBox[{1, 2, 3, 4, 5, 6}]}, {}, {}}}], {}, {}, {{}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{False, False},
       AxesLabel->{None, None},
@@ -1135,249 +1207,194 @@ Cell[BoxData[
               SlotSequence[1]}]& )[
              SlotSequence[1]], None, 5, {{0.0125, 0}, {0.0075, 0}}, None]& )[
             SlotSequence[1]], {Identity, Identity}]& }}, {{
-         Automatic, Automatic}, {{{3.7484208*^9, 
-            FormBox["\"12:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748464*^9, 
-            FormBox["\"00:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485072*^9, 
-            FormBox["\"12:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485504*^9, 
-            FormBox["\"00:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485936*^9, 
-            FormBox["\"12:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484316*^9, 
+         Automatic, Automatic}, {{{3.748464*^9, 
+            FormBox["\"Oct 14\"", TraditionalForm], {0.0125, 0.}}, {
+           3.7485504*^9, 
+            FormBox["\"Oct 15\"", TraditionalForm], {0.0125, 0.}}, {
+           3.7486368*^9, 
+            FormBox["\"Oct 16\"", TraditionalForm], {0.0125, 0.}}, {
+           3.7484208*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484424*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484424*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484532*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484856*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484748*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485072*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484856*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485288*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484964*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.748572*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748518*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485936*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485288*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486152*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485396*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486584*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485612*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {3.74868*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748572*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}}, {{
+           3.748464*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485828*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0125, 0.}}, {
+           3.7485504*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}}, {{3.7484208*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0125, 0.}}, {
+           3.7486368*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748464*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0125, 0.}}, {
+           3.7484208*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485072*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484424*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485504*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484856*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485936*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485072*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484316*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485288*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484424*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.748572*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484532*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485936*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484748*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486152*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484856*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486584*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484964*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {3.74868*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748518*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485288*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485396*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485612*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748572*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485828*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}}}}],
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}}}}],
       GridLines->{{0.}, {0}},
       GridLinesStyle->Directive[
         GrayLevel[0.5, 0.4]],
@@ -1394,7 +1411,7 @@ Cell[BoxData[
             (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
              Part[#, 2]]}& )}},
       PlotLabel->FormBox["\"\:51c6\:786e\:5ea6\"", TraditionalForm],
-      PlotRange->{{3.74842592597506*^9, 3.748591797959642*^9}, {91., 97.}},
+      PlotRange->{{3.74842592597506*^9, 3.748675524794594*^9}, {91., 97.}},
       PlotRangeClipping->True,
       PlotRangePadding->{{
          Scaled[0.02], 
@@ -1406,16 +1423,17 @@ Cell[BoxData[
      GraphicsBox[{{}, 
        GraphicsComplexBox[{{3.74842592597506*^9, 0.31}, {3.748441386547292*^9,
          0.11}, {3.748453901209715*^9, 0.11}, {3.748504734770735*^9, 0.02}, {
-        3.748591797959642*^9, 0.03}, {3.74842592597506*^9, 0.31}, {
-        3.748441386547292*^9, 0.11}, {3.748453901209715*^9, 0.11}, {
-        3.748504734770735*^9, 0.02}, {3.748591797959642*^9, 
-        0.03}}, {{{}, {}, 
+        3.748591797959642*^9, 0.03}, {3.748675524794594*^9, 0.04}, {
+        3.74842592597506*^9, 0.31}, {3.748441386547292*^9, 0.11}, {
+        3.748453901209715*^9, 0.11}, {3.748504734770735*^9, 0.02}, {
+        3.748591797959642*^9, 0.03}, {3.748675524794594*^9, 
+        0.04}}, {{{}, {}, 
           {RGBColor[0.9, 0.36, 0.054], PointSize[0.012833333333333334`], 
            AbsoluteThickness[1.6], CapForm["Butt"], 
-           LineBox[{6, 7, 8, 9, 10}]}}, {
+           LineBox[{7, 8, 9, 10, 11, 12}]}}, {
           {RGBColor[0.9, 0.36, 0.054], AbsolutePointSize[6], 
            AbsoluteThickness[1.6], CapForm["Butt"], 
-           PointBox[{1, 2, 3, 4, 5}]}, {}, {}}}], {}, {}, {{}, {}}},
+           PointBox[{1, 2, 3, 4, 5, 6}]}, {}, {}}}], {}, {}, {{}, {}}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{False, False},
       AxesLabel->{None, None},
@@ -1445,249 +1463,194 @@ Cell[BoxData[
               SlotSequence[1]}]& )[
              SlotSequence[1]], None, 5, {{0.0125, 0}, {0.0075, 0}}, None]& )[
             SlotSequence[1]], {Identity, Identity}]& }}, {{
-         Automatic, Automatic}, {{{3.7484208*^9, 
-            FormBox["\"12:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748464*^9, 
-            FormBox["\"00:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485072*^9, 
-            FormBox["\"12:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485504*^9, 
-            FormBox["\"00:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485936*^9, 
-            FormBox["\"12:00\"", TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484316*^9, 
+         Automatic, Automatic}, {{{3.748464*^9, 
+            FormBox["\"Oct 14\"", TraditionalForm], {0.0125, 0.}}, {
+           3.7485504*^9, 
+            FormBox["\"Oct 15\"", TraditionalForm], {0.0125, 0.}}, {
+           3.7486368*^9, 
+            FormBox["\"Oct 16\"", TraditionalForm], {0.0125, 0.}}, {
+           3.7484208*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484424*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484424*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484532*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484856*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484748*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485072*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484856*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485288*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484964*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.748572*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748518*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485936*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485288*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486152*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485396*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486584*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485612*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {3.74868*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748572*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}}, {{
+           3.748464*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485828*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0125, 0.}}, {
+           3.7485504*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}}, {{3.7484208*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0125, 0.}}, {
+           3.7486368*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748464*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0125, 0.}}, {
+           3.7484208*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485072*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484424*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485504*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7484856*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485936*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485072*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484316*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485288*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484424*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.748572*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484532*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7485936*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484748*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486152*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484856*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {
+           3.7486584*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7484964*^9, 
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}, {3.74868*^9, 
             FormBox[
              InterpretationBox[
               StyleBox[
                
                GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
                 Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748518*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485288*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485396*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485612*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.748572*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}, {3.7485828*^9, 
-            FormBox[
-             InterpretationBox[
-              StyleBox[
-               
-               GraphicsBox[{}, ImageSize -> {0., 0.}, BaselinePosition -> 
-                Baseline], "CacheGraphics" -> False], 
-              Spacer[{0., 0.}]], TraditionalForm], {0.008333333333333333, 
-            0.}}}}}],
+              Spacer[{0., 0.}]], TraditionalForm], {0.0075, 0.}}}}}],
       GridLines->{{0.}, {0}},
       GridLinesStyle->Directive[
         GrayLevel[0.5, 0.4]],
@@ -1704,7 +1667,7 @@ Cell[BoxData[
             (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
              Part[#, 2]]}& )}},
       PlotLabel->FormBox["\"\:91cd\:542c\:7387\"", TraditionalForm],
-      PlotRange->{{3.74842592597506*^9, 3.748591797959642*^9}, {0, 0.31}},
+      PlotRange->{{3.74842592597506*^9, 3.748675524794594*^9}, {0, 0.31}},
       PlotRangeClipping->True,
       PlotRangePadding->{{
          Scaled[0.02], 
@@ -1713,38 +1676,43 @@ Cell[BoxData[
          Scaled[0.05]}},
       Ticks->{{}, Automatic}], 
      GraphicsBox[{
-       {Opacity[0], PointBox[{0.4451141552511416, 0.}]}, {{}, 
+       {Opacity[0], PointBox[{0.4246800731261425, 0.}]}, {{}, 
         {RGBColor[0.976, 0.6848, 0.26480000000000004`], EdgeForm[{Opacity[
-         0.6649999999999999], Thickness[Small]}], 
+         0.6579999999999999], Thickness[Small]}], 
          {RGBColor[0.976, 0.6848, 0.26480000000000004`], EdgeForm[{Opacity[
-          0.6649999999999999], Thickness[Small]}], 
-          RectangleBox[{0.54337899543379, 0.}, {1.45662100456621, 0.05660377358490566},
+          0.6579999999999999], Thickness[Small]}], 
+          RectangleBox[{0.542961608775137, 0.}, {1.4570383912248628, 0.046153846153846156},
            
            RoundingRadius->0]}, 
          {RGBColor[0.976, 0.6848, 0.26480000000000004`], EdgeForm[{Opacity[
-          0.6649999999999999], Thickness[Small]}], 
-          RectangleBox[{1.54337899543379, 0.}, {2.45662100456621, 0.1568627450980392},
+          0.6579999999999999], Thickness[Small]}], 
+          RectangleBox[{1.542961608775137, 0.}, {2.457038391224863, 0.13793103448275862},
            
            RoundingRadius->0]}, 
          {RGBColor[0.976, 0.6848, 0.26480000000000004`], EdgeForm[{Opacity[
-          0.6649999999999999], Thickness[Small]}], 
-          RectangleBox[{2.5433789954337898, 0.}, {3.45662100456621, 0.13043478260869565},
+          0.6579999999999999], Thickness[Small]}], 
+          RectangleBox[{2.542961608775137, 0.}, {3.457038391224863, 0.11494252873563218},
            
            RoundingRadius->0]}, 
          {RGBColor[0.976, 0.6848, 0.26480000000000004`], EdgeForm[{Opacity[
-          0.6649999999999999], Thickness[Small]}], 
-          RectangleBox[{3.5433789954337898, 0.}, {4.45662100456621, 0.15254237288135594},
+          0.6579999999999999], Thickness[Small]}], 
+          RectangleBox[{3.542961608775137, 0.}, {4.457038391224863, 0.1643835616438356},
            
            RoundingRadius->0]}, 
          {RGBColor[0.976, 0.6848, 0.26480000000000004`], EdgeForm[{Opacity[
-          0.6649999999999999], Thickness[Small]}], 
-          RectangleBox[{4.543378995433789, 0.}, {5.456621004566209, 0.01639344262295082},
+          0.6579999999999999], Thickness[Small]}], 
+          RectangleBox[{4.542961608775137, 0.}, {5.457038391224863, 0.012345679012345678},
+           
+           RoundingRadius->0]}, 
+         {RGBColor[0.976, 0.6848, 0.26480000000000004`], EdgeForm[{Opacity[
+          0.6579999999999999], Thickness[Small]}], 
+          RectangleBox[{5.542961608775137, 0.}, {6.457038391224863, 0.0196078431372549},
            
            RoundingRadius->0]}}, {}, {}}, {}, {}, {}},
       AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
       Axes->{False, False},
       AxesLabel->{None, None},
-      AxesOrigin->{0.4451141552511416, 0.},
+      AxesOrigin->{0.4246800731261425, 0.},
       CoordinatesToolOptions:>{"DisplayFunction" -> ({
           Identity[
            Part[#, 1]], 
@@ -1766,15 +1734,17 @@ Cell[BoxData[
           Opacity[0]]}, {Automatic, None}},
       FrameTicks->FrontEndValueCache[{{Charting`FindScaledTicks[
            (Charting`SimpleTicks[#, #2, 6]& )[
-            SlotSequence[1]], {Identity, Identity}]& , None}, {{{1., 
+            SlotSequence[1]], {Identity, Identity}]& , 
+          None}, {{{0.9999999999999999, 
             FormBox[
              RowBox[{"-", "3"}], TraditionalForm], 0}, {2., 
             FormBox[
              RowBox[{"-", "2"}], TraditionalForm], 0}, {3., 
             FormBox[
              RowBox[{"-", "1"}], TraditionalForm], 0}, {4., 
-            FormBox["1", TraditionalForm], 0}, {4.999999999999999, 
-            FormBox["2", TraditionalForm], 0}}, None}}, {{{{0., 
+            FormBox["1", TraditionalForm], 0}, {5., 
+            FormBox["2", TraditionalForm], 0}, {6., 
+            FormBox["3", TraditionalForm], 0}}, None}}, {{{{0., 
             FormBox["0", TraditionalForm], {0.01, 0.}, {
              AbsoluteThickness[0.1]}}, {0.05, 
             FormBox[
@@ -1794,15 +1764,16 @@ Cell[BoxData[
               InterpretationBox["\"0.15\"", 0.15, AutoDelete -> True], 
               NumberForm[#, {
                 DirectedInfinity[1], 2.}]& ], TraditionalForm], {0.01, 0.}, {
-             AbsoluteThickness[0.1]}}}, None}, {{{1., 
+             AbsoluteThickness[0.1]}}}, None}, {{{0.9999999999999999, 
             FormBox[
              RowBox[{"-", "3"}], TraditionalForm], 0.}, {2., 
             FormBox[
              RowBox[{"-", "2"}], TraditionalForm], 0.}, {3., 
             FormBox[
              RowBox[{"-", "1"}], TraditionalForm], 0.}, {4., 
-            FormBox["1", TraditionalForm], 0.}, {4.999999999999999, 
-            FormBox["2", TraditionalForm], 0.}}, None}}],
+            FormBox["1", TraditionalForm], 0.}, {5., 
+            FormBox["2", TraditionalForm], 0.}, {6., 
+            FormBox["3", TraditionalForm], 0.}}, None}}],
       GridLines->{None, Automatic},
       GridLinesStyle->Directive[
         GrayLevel[0.4, 0.5], 
@@ -1833,15 +1804,1914 @@ Cell[BoxData[
   3.748479657122781*^9, {3.748479767876873*^9, 3.74847980069466*^9}, 
    3.748479837167737*^9, {3.748481498733716*^9, 3.74848152459976*^9}, 
    3.748481560085103*^9, 3.748529812807514*^9, 3.748529936778771*^9, 
-   3.748617006869622*^9}]
+   3.748617006869622*^9, 3.74870073317535*^9}]
 }, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\:9519\:9898\:8bad\:7ec3", "Section",
+ CellChangeTimes->{{3.748700762599139*^9, 3.748700765889023*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Code", "Subsection",
+ CellChangeTimes->{{3.748701152799313*^9, 3.7487011553770943`*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"TwoPitch", "[", 
+   RowBox[{"w_:", "6"}], "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"p1", "=", 
+       RowBox[{"RandomInteger", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "24"}], ",", "24"}], "}"}], "]"}]}], ",", "p2", ",", 
+      "note1", ",", "note2"}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"p2", "=", 
+      RowBox[{"p1", "+", 
+       RowBox[{"RandomChoice", "[", 
+        RowBox[{
+         RowBox[{"Join", "[", 
+          RowBox[{
+           RowBox[{"Range", "[", 
+            RowBox[{"1", ",", "w"}], "]"}], ",", 
+           RowBox[{"Range", "[", 
+            RowBox[{"w", ",", "1", ",", 
+             RowBox[{"-", "1"}]}], "]"}]}], "]"}], "\[Rule]", 
+         RowBox[{"Join", "[", 
+          RowBox[{
+           RowBox[{"Range", "[", 
+            RowBox[{
+             RowBox[{"-", "w"}], ",", 
+             RowBox[{"-", "1"}]}], "]"}], ",", 
+           RowBox[{"Range", "[", 
+            RowBox[{"1", ",", "w"}], "]"}]}], "]"}]}], "]"}]}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Sound", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"SoundNote", "[", "p1", "]"}], ",", 
+        RowBox[{"SoundNote", "[", "p2", "]"}]}], "}"}], "]"}]}]}], 
+   "\[IndentingNewLine]", "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"TwoPitchReTrain", "[", 
+   RowBox[{"\"\<data\>\"", ",", "db_"}], "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"p1", "=", 
+       RowBox[{"RandomInteger", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "24"}], ",", "24"}], "}"}], "]"}]}], ",", "p2", ",", 
+      "note1", ",", "note2", ",", 
+      RowBox[{"w", "=", "6"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"p2", "=", 
+      RowBox[{"p1", "+", 
+       RowBox[{"RandomChoice", "[", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           RowBox[{
+           "#", "\[LeftDoubleBracket]", "2", "\[RightDoubleBracket]"}], 
+           "\[Rule]", 
+           RowBox[{
+           "#", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}], 
+          "&"}], "[", 
+         RowBox[{
+          RowBox[{
+           RowBox[{"TrainReport", "[", 
+            RowBox[{"database", ",", "\"\<Data\>\""}], "]"}], 
+           "\[LeftDoubleBracket]", "3", "\[RightDoubleBracket]"}], 
+          "\[Transpose]"}], "]"}], "]"}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"Sound", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"SoundNote", "[", "p1", "]"}], ",", 
+          RowBox[{"SoundNote", "[", "p2", "]"}]}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"p1", ",", "p2"}], "}"}]}], "}"}]}]}], "\[IndentingNewLine]", 
+   "]"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"PitchTraining", "[", 
+   RowBox[{"output_", ",", "db_", ",", "\"\<Retrain\>\""}], "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"raw", "=", 
+       RowBox[{"TwoPitch", "[", "\"\<data\>\"", "]"}]}], ",", 
+      RowBox[{"truefalse", "=", 
+       RowBox[{"{", "}"}]}], ",", 
+      RowBox[{"questions", "=", 
+       RowBox[{"{", "}"}]}], ",", 
+      RowBox[{"e1", "=", "True"}], ",", 
+      RowBox[{"e2", "=", "True"}], ",", 
+      RowBox[{"enext", "=", "False"}], ",", 
+      RowBox[{"name1", "=", "\"\<1\>\""}], ",", 
+      RowBox[{"name2", "=", "\"\<2\>\""}], ",", 
+      RowBox[{"repeat", "=", "0"}]}], "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"EmitSound", "@", 
+      RowBox[{"raw", "\[LeftDoubleBracket]", "1", "\[RightDoubleBracket]"}]}],
+      ";", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     RowBox[{"Panel", "[", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{"TableForm", "[", "\[IndentingNewLine]", 
+        RowBox[{
+         RowBox[{"{", "\[IndentingNewLine]", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"Button", "[", 
+             RowBox[{"\"\<\:91cd\:65b0\:64ad\:653e\>\"", ",", 
+              RowBox[{
+               RowBox[{"EmitSound", "@", 
+                RowBox[{
+                "raw", "\[LeftDoubleBracket]", "1", 
+                 "\[RightDoubleBracket]"}]}], ";", 
+               RowBox[{"If", "[", 
+                RowBox[{
+                 RowBox[{"enext", "\[Equal]", "False"}], ",", 
+                 RowBox[{"repeat", "++"}]}], "]"}]}]}], "]"}], "}"}], ",", 
+           RowBox[{"{", 
+            RowBox[{"TableForm", "[", 
+             RowBox[{
+              RowBox[{"{", "\[IndentingNewLine]", 
+               RowBox[{"{", 
+                RowBox[{
+                 RowBox[{"Button", "[", 
+                  RowBox[{"\"\<\:5bfc\:51fa\>\"", ",", 
+                   RowBox[{"output", "=", 
+                    RowBox[{"{", 
+                    RowBox[{"repeat", ",", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"questions", ",", "truefalse"}], "}"}], 
+                    "\[Transpose]"}]}], "}"}]}]}], "]"}], ",", 
+                 "\[IndentingNewLine]", 
+                 RowBox[{"Button", "[", 
+                  RowBox[{
+                   RowBox[{"Dynamic", "@", "name1"}], ",", 
+                   RowBox[{
+                    RowBox[{"AppendTo", "[", 
+                    RowBox[{"questions", ",", 
+                    RowBox[{
+                    "raw", "\[LeftDoubleBracket]", "2", 
+                    "\[RightDoubleBracket]"}]}], "]"}], ";", 
+                    RowBox[{"AppendTo", "[", 
+                    RowBox[{"truefalse", ",", 
+                    RowBox[{
+                    RowBox[{"raw", "\[LeftDoubleBracket]", 
+                    RowBox[{"2", ",", "1"}], "\[RightDoubleBracket]"}], ">", 
+                    RowBox[{"raw", "\[LeftDoubleBracket]", 
+                    RowBox[{"2", ",", "2"}], "\[RightDoubleBracket]"}]}]}], 
+                    "]"}], ";", "\[IndentingNewLine]", 
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{"truefalse", "\[LeftDoubleBracket]", 
+                    RowBox[{"-", "1"}], "\[RightDoubleBracket]"}], ",", 
+                    RowBox[{
+                    RowBox[{"raw", "=", 
+                    RowBox[{"TwoPitchReTrain", "[", 
+                    RowBox[{"\"\<data\>\"", ",", "db"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"EmitSound", "@", 
+                    RowBox[{
+                    "raw", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}]}], ";", 
+                    RowBox[{"enext", "=", "False"}]}], ",", 
+                    RowBox[{
+                    RowBox[{"enext", "=", "True"}], ";", 
+                    RowBox[{"e1", "=", 
+                    RowBox[{"e2", "=", "False"}]}], ";", 
+                    RowBox[{"name2", "=", "\"\<[2]\>\""}]}]}], "]"}]}], ",", 
+                   "\[IndentingNewLine]", 
+                   RowBox[{"Enabled", "\[Rule]", 
+                    RowBox[{"Dynamic", "@", "e1"}]}]}], "]"}], ",", 
+                 "\[IndentingNewLine]", 
+                 RowBox[{"Button", "[", 
+                  RowBox[{
+                   RowBox[{"Dynamic", "@", "name2"}], ",", 
+                   RowBox[{
+                    RowBox[{"AppendTo", "[", 
+                    RowBox[{"questions", ",", 
+                    RowBox[{
+                    "raw", "\[LeftDoubleBracket]", "2", 
+                    "\[RightDoubleBracket]"}]}], "]"}], ";", 
+                    RowBox[{"AppendTo", "[", 
+                    RowBox[{"truefalse", ",", 
+                    RowBox[{
+                    RowBox[{"raw", "\[LeftDoubleBracket]", 
+                    RowBox[{"2", ",", "1"}], "\[RightDoubleBracket]"}], "<", 
+                    RowBox[{"raw", "\[LeftDoubleBracket]", 
+                    RowBox[{"2", ",", "2"}], "\[RightDoubleBracket]"}]}]}], 
+                    "]"}], ";", 
+                    RowBox[{"If", "[", 
+                    RowBox[{
+                    RowBox[{"truefalse", "\[LeftDoubleBracket]", 
+                    RowBox[{"-", "1"}], "\[RightDoubleBracket]"}], ",", 
+                    RowBox[{
+                    RowBox[{"raw", "=", 
+                    RowBox[{"TwoPitchReTrain", "[", 
+                    RowBox[{"\"\<data\>\"", ",", "db"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"EmitSound", "@", 
+                    RowBox[{
+                    "raw", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}]}], ";", 
+                    RowBox[{"enext", "=", "False"}]}], ",", 
+                    RowBox[{
+                    RowBox[{"enext", "=", "True"}], ";", 
+                    RowBox[{"e1", "=", 
+                    RowBox[{"e2", "=", "False"}]}], ";", 
+                    RowBox[{"name1", "=", "\"\<[1]\>\""}]}]}], "]"}]}], ",", 
+                   RowBox[{"Enabled", "\[Rule]", 
+                    RowBox[{"Dynamic", "@", "e2"}]}]}], "]"}], ",", 
+                 "\[IndentingNewLine]", 
+                 RowBox[{"Button", "[", 
+                  RowBox[{"\"\<>\>\"", ",", 
+                   RowBox[{
+                    RowBox[{"raw", "=", 
+                    RowBox[{"TwoPitchReTrain", "[", 
+                    RowBox[{"\"\<data\>\"", ",", "db"}], "]"}]}], ";", 
+                    "\[IndentingNewLine]", 
+                    RowBox[{"EmitSound", "@", 
+                    RowBox[{
+                    "raw", "\[LeftDoubleBracket]", "1", 
+                    "\[RightDoubleBracket]"}]}], ";", 
+                    RowBox[{"e1", "=", 
+                    RowBox[{"e2", "=", "True"}]}], ";", 
+                    RowBox[{"enext", "=", "False"}], ";", 
+                    RowBox[{"name1", "=", "\"\<1\>\""}], ";", 
+                    RowBox[{"name2", "=", "\"\<2\>\""}]}], ",", 
+                   RowBox[{"Enabled", "\[Rule]", 
+                    RowBox[{"Dynamic", "[", "enext", "]"}]}]}], "]"}]}], 
+                "\[IndentingNewLine]", "}"}], "\[IndentingNewLine]", "}"}], 
+              ",", 
+              RowBox[{"TableAlignments", "\[Rule]", "Center"}]}], "]"}], 
+            "}"}], ",", "\[IndentingNewLine]", 
+           RowBox[{"TableForm", "[", 
+            RowBox[{"Dynamic", "[", 
+             RowBox[{
+              RowBox[{
+              "StringTemplate", "[", 
+               "\"\<\:6b63\:786e:``, \:9519\:8bef:``, \:767e\:5206\:6bd4: ``%\
+\>\"", "]"}], "[", 
+              RowBox[{
+               RowBox[{"Count", "[", 
+                RowBox[{"truefalse", ",", "True"}], "]"}], ",", 
+               RowBox[{"Count", "[", 
+                RowBox[{"truefalse", ",", "False"}], "]"}], ",", 
+               RowBox[{"100", "*", 
+                RowBox[{
+                 RowBox[{"Count", "[", 
+                  RowBox[{"truefalse", ",", "True"}], "]"}], "/", 
+                 RowBox[{"If", "[", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"Length", "[", "truefalse", "]"}], ">", "0"}], 
+                   ",", 
+                   RowBox[{"Length", "[", "truefalse", "]"}], ",", "1"}], 
+                  "]"}]}]}]}], "]"}], "]"}], "]"}]}], "\[IndentingNewLine]", 
+          "}"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+         RowBox[{"TableAlignments", "\[Rule]", "Center"}]}], "]"}], ",", 
+       "\[IndentingNewLine]", "\"\<\:6bd4\:8f83\:97f3\:9ad8\>\""}], "]"}]}]}],
+    "\[IndentingNewLine]", "]"}]}]}], "Input",
+ CellChangeTimes->{{3.7484465689833813`*^9, 3.748446633070286*^9}, {
+  3.748446671350206*^9, 3.748446676522234*^9}, {3.7484773809210453`*^9, 
+  3.748477381441667*^9}, {3.748477596394047*^9, 3.748477610768723*^9}, {
+  3.748700785694983*^9, 3.748700787155055*^9}, {3.748700841107048*^9, 
+  3.748700879038087*^9}, {3.748701059105486*^9, 3.7487011366670847`*^9}}]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["\:8bad\:7ec3", "Subsection",
+ CellChangeTimes->{3.748701159920123*^9}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"PitchTraining", "[", 
+  RowBox[{"retrainData", ",", "database", ",", "\"\<Retrain\>\""}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.7487011685769053`*^9, 3.748701194511302*^9}, {
+  3.748701441965201*^9, 3.748701442029427*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{PanelBox[
+    InterpretationBox[
+     GridBox[{{
+        ButtonBox["\"\:91cd\:65b0\:64ad\:653e\"", ButtonFunction :> (EmitSound[
+            Part[$CellContext`raw$9043, 1]]; 
+          If[$CellContext`enext$9044 == False, 
+            Increment[$CellContext`repeat$9044]]), Appearance -> Automatic, 
+         Evaluator -> Automatic, Method -> "Preemptive"]}, {
+        TagBox[
+         GridBox[{{
+            ButtonBox[
+            "\"\:5bfc\:51fa\"", 
+             ButtonFunction :> ({
+               4, {{{11, 7}, True}, {{-15, -14}, True}, {{15, 17}, 
+                  True}, {{-17, -15}, True}, {{-16, -18}, True}, {{-5, -4}, 
+                  True}, {{-1, -2}, True}, {{-12, -13}, True}, {{-3, -6}, 
+                  True}, {{-16, -19}, True}, {{18, 15}, True}, {{12, 13}, 
+                  True}, {{-9, -13}, True}, {{-16, -17}, True}, {{-1, -3}, 
+                  True}, {{14, 15}, True}, {{17, 19}, True}, {{3, 5}, 
+                  True}, {{18, 21}, True}, {{-16, -20}, True}, {{0, -5}, 
+                  True}, {{9, 11}, True}, {{4, 2}, True}, {{5, 0}, True}, {{
+                  15, 18}, True}, {{-24, -20}, True}, {{-16, -14}, True}, {{
+                  12, 14}, True}, {{17, 12}, True}, {{-2, 0}, True}, {{12, 
+                  15}, True}, {{13, 10}, True}, {{-9, -11}, True}, {{16, 10}, 
+                  True}, {{-24, -21}, True}, {{-19, -17}, True}, {{1, -2}, 
+                  True}, {{-16, -19}, True}, {{-8, -9}, True}, {{6, 3}, 
+                  True}, {{6, 3}, True}, {{-7, -10}, True}, {{-6, 0}, 
+                  True}, {{1, 0}, True}, {{-1, 2}, True}, {{8, 12}, 
+                  True}, {{-8, -9}, True}, {{-9, -10}, True}, {{-19, -20}, 
+                  True}, {{7, 6}, True}, {{19, 18}, True}, {{0, -5}, 
+                  True}, {{-24, -19}, True}, {{21, 20}, True}, {{-13, -11}, 
+                  True}, {{-16, -15}, False}, {{3, 4}, True}, {{-20, -19}, 
+                  True}, {{-20, -22}, True}, {{-19, -23}, True}, {{17, 13}, 
+                  True}, {{4, 3}, True}, {{21, 27}, True}, {{-4, -2}, 
+                  True}, {{-7, -6}, False}, {{-16, -17}, True}, {{-1, 2}, 
+                  True}, {{-22, -21}, False}, {{15, 10}, True}, {{-18, -17}, 
+                  True}, {{-4, -1}, False}, {{-10, -11}, True}, {{-10, -9}, 
+                  True}, {{12, 13}, True}, {{-18, -22}, True}, {{18, 15}, 
+                  True}, {{-15, -17}, True}, {{16, 18}, True}, {{-4, -1}, 
+                  True}, {{-8, -6}, True}, {{-24, -25}, True}, {{-15, -13}, 
+                  True}, {{13, 12}, True}, {{20, 19}, True}, {{18, 20}, 
+                  True}, {{10, 12}, True}, {{9, 11}, True}, {{-10, -13}, 
+                  True}, {{0, 1}, True}, {{8, 11}, True}, {{-3, 3}, 
+                  True}, {{-8, -6}, True}, {{-24, -19}, True}, {{-6, -5}, 
+                  True}, {{23, 25}, True}, {{14, 11}, True}, {{21, 20}, 
+                  False}, {{15, 18}, True}, {{16, 18}, True}, {{-13, -15}, 
+                  True}}} = {$CellContext`repeat$9044, 
+                
+                Transpose[{$CellContext`questions$9044, \
+$CellContext`truefalse$9044}]}), Appearance -> Automatic, Evaluator -> 
+             Automatic, Method -> "Preemptive"], 
+            ButtonBox[
+             DynamicBox[
+              ToBoxes[$CellContext`name1$9044, StandardForm]], 
+             ButtonFunction :> (AppendTo[$CellContext`questions$9044, 
+                Part[$CellContext`raw$9043, 2]]; 
+              AppendTo[$CellContext`truefalse$9044, 
+                Part[$CellContext`raw$9043, 2, 1] > 
+                Part[$CellContext`raw$9043, 2, 2]]; If[
+                
+                Part[$CellContext`truefalse$9044, -1], $CellContext`raw$9043 = \
+$CellContext`TwoPitchReTrain["data", {{
+                    DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{13, 25, 25.97506`8.167131541751818}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                    31, {{{-6, -4}, True}, {{15, 19}, True}, {{10, 9}, 
+                    True}, {{-4, -9}, True}, {{9, 8}, False}, {{9, 7}, 
+                    False}, {{5, 9}, True}, {{5, 3}, True}, {{-17, -14}, 
+                    True}, {{-21, -19}, True}, {{-18, -22}, True}, {{18, 21}, 
+                    True}, {{-6, -10}, True}, {{-19, -17}, True}, {{-4, -1}, 
+                    True}, {{6, 4}, True}, {{-24, -22}, True}, {{-5, 0}, 
+                    True}, {{6, 5}, True}, {{21, 18}, True}, {{20, 19}, 
+                    True}, {{-1, 1}, True}, {{16, 13}, True}, {{-13, -15}, 
+                    True}, {{5, 4}, True}, {{-1, -3}, True}, {{2, -1}, 
+                    True}, {{11, 9}, True}, {{22, 19}, True}, {{-3, -6}, 
+                    True}, {{19, 21}, True}, {{15, 20}, True}, {{21, 27}, 
+                    True}, {{22, 16}, True}, {{-13, -16}, True}, {{-21, -17}, 
+                    True}, {{-3, -4}, True}, {{-7, -6}, True}, {{3, 0}, 
+                    True}, {{-12, -15}, True}, {{-12, -9}, True}, {{9, 11}, 
+                    True}, {{-11, -15}, True}, {{-2, -3}, True}, {{0, -4}, 
+                    True}, {{-15, -11}, True}, {{-10, -6}, True}, {{0, 5}, 
+                    True}, {{3, 1}, True}, {{0, 3}, True}, {{16, 19}, 
+                    True}, {{-4, -1}, True}, {{-2, -5}, True}, {{4, -2}, 
+                    True}, {{6, 7}, True}, {{-1, 1}, True}, {{-14, -8}, 
+                    True}, {{16, 18}, True}, {{21, 20}, True}, {{3, 7}, 
+                    True}, {{3, 5}, False}, {{16, 17}, True}, {{24, 18}, 
+                    True}, {{5, 9}, True}, {{4, -1}, True}, {{23, 25}, 
+                    True}, {{-6, -4}, True}, {{2, 4}, True}, {{13, 14}, 
+                    True}, {{-17, -12}, True}, {{-16, -18}, True}, {{10, 9}, 
+                    False}, {{11, 15}, True}, {{22, 21}, True}, {{-3, -2}, 
+                    False}, {{-20, -21}, True}, {{-21, -19}, True}, {{21, 23},
+                     True}, {{-24, -23}, True}, {{-13, -17}, 
+                    True}, {{-16, -22}, True}, {{22, 20}, True}, {{8, 11}, 
+                    True}, {{4, 8}, True}, {{10, 9}, True}, {{-2, 0}, 
+                    True}, {{9, 13}, True}, {{-19, -23}, True}, {{-8, -10}, 
+                    False}, {{0, -3}, True}, {{-6, 0}, True}, {{16, 19}, 
+                    True}, {{8, 12}, True}, {{-4, 1}, True}, {{23, 25}, 
+                    True}, {{-21, -26}, True}, {{13, 10}, False}, {{-20, -23},
+                     True}, {{13, 16}, True}, {{14, 18}, True}}}}, {
+                    DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{17, 43, 6.547292`7.56863669779946}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                    11, {{{16, 15}, True}, {{-13, -17}, True}, {{-16, -15}, 
+                    True}, {{6, 3}, True}, {{18, 19}, True}, {{13, 16}, 
+                    True}, {{-22, -26}, True}, {{-4, -5}, True}, {{20, 16}, 
+                    True}, {{19, 18}, False}, {{-23, -20}, True}, {{13, 19}, 
+                    True}, {{-13, -12}, True}, {{-19, -21}, 
+                    True}, {{-22, -28}, True}, {{22, 26}, True}, {{3, -2}, 
+                    True}, {{-1, 0}, True}, {{14, 18}, True}, {{-8, -12}, 
+                    True}, {{4, 0}, True}, {{-24, -22}, True}, {{-19, -13}, 
+                    True}, {{9, 15}, True}, {{18, 16}, True}, {{2, 4}, 
+                    True}, {{-9, -10}, True}, {{7, 9}, True}, {{-1, 3}, 
+                    True}, {{22, 24}, True}, {{13, 16}, True}, {{-20, -16}, 
+                    True}, {{21, 26}, True}, {{-19, -13}, True}, {{-3, -4}, 
+                    True}, {{24, 27}, True}, {{19, 18}, True}, {{-8, -6}, 
+                    True}, {{13, 14}, False}, {{24, 22}, True}, {{-20, -22}, 
+                    True}, {{-6, -9}, True}, {{1, 0}, True}, {{5, 4}, 
+                    True}, {{-19, -20}, True}, {{12, 10}, False}, {{-2, -7}, 
+                    True}, {{22, 25}, True}, {{-18, -17}, True}, {{-6, -10}, 
+                    True}, {{-2, -6}, True}, {{15, 17}, True}, {{8, 9}, 
+                    True}, {{21, 22}, True}, {{-1, 2}, True}, {{22, 17}, 
+                    True}, {{-7, -3}, True}, {{11, 7}, True}, {{4, 1}, 
+                    True}, {{-19, -21}, True}, {{19, 18}, True}, {{-15, -18}, 
+                    True}, {{14, 20}, True}, {{20, 15}, True}, {{-9, -7}, 
+                    True}, {{9, 14}, True}, {{14, 16}, True}, {{7, 6}, 
+                    True}, {{3, 1}, False}, {{-20, -25}, True}, {{14, 13}, 
+                    True}, {{-21, -18}, True}, {{5, 2}, True}, {{-10, -9}, 
+                    False}, {{-17, -18}, True}, {{-5, -1}, True}, {{6, 5}, 
+                    True}, {{-17, -14}, True}, {{-21, -27}, 
+                    True}, {{-24, -29}, True}, {{-20, -18}, True}, {{6, 8}, 
+                    True}, {{17, 14}, True}, {{-24, -25}, True}, {{5, 9}, 
+                    True}, {{-10, -9}, True}, {{5, 1}, True}, {{-3, -6}, 
+                    True}, {{11, 10}, True}, {{14, 15}, True}, {{-23, -25}, 
+                    True}, {{-18, -17}, True}, {{2, 0}, True}, {{15, 12}, 
+                    False}, {{4, 10}, True}, {{11, 14}, True}, {{-8, -11}, 
+                    True}, {{-18, -16}, True}, {{-24, -23}, 
+                    True}, {{-19, -23}, True}}}}, {
+                    DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{21, 11, 41.209715`8.36757458899875}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                    11, {{{-5, -10}, True}, {{22, 20}, True}, {{-8, -2}, 
+                    True}, {{-10, -11}, True}, {{19, 23}, True}, {{17, 16}, 
+                    True}, {{-18, -13}, True}, {{3, 4}, False}, {{11, 16}, 
+                    True}, {{22, 21}, True}, {{-23, -20}, True}, {{-2, -3}, 
+                    True}, {{-17, -16}, True}, {{-15, -14}, True}, {{11, 12}, 
+                    True}, {{-11, -17}, True}, {{20, 23}, True}, {{4, 1}, 
+                    True}, {{-2, -5}, True}, {{13, 10}, True}, {{7, 12}, 
+                    True}, {{9, 5}, True}, {{-3, -9}, True}, {{8, 12}, 
+                    True}, {{6, 4}, True}, {{20, 21}, False}, {{-24, -25}, 
+                    True}, {{-20, -17}, True}, {{-14, -15}, True}, {{-3, -1}, 
+                    True}, {{-9, -11}, True}, {{-15, -13}, True}, {{-5, 0}, 
+                    True}, {{-23, -20}, True}, {{0, -1}, True}, {{7, 10}, 
+                    True}, {{8, 2}, True}, {{16, 13}, True}, {{-16, -14}, 
+                    True}, {{-2, -4}, True}, {{-20, -16}, True}, {{-4, -8}, 
+                    True}, {{2, 3}, True}, {{8, 5}, True}, {{11, 10}, 
+                    True}, {{8, 9}, True}, {{-21, -26}, True}, {{17, 16}, 
+                    False}, {{17, 19}, True}, {{13, 15}, True}, {{12, 15}, 
+                    True}, {{17, 11}, True}, {{-14, -11}, True}, {{4, 9}, 
+                    True}, {{-3, 1}, True}, {{1, 5}, True}, {{17, 16}, 
+                    True}, {{-17, -16}, True}, {{9, 6}, True}, {{15, 18}, 
+                    True}, {{7, 11}, True}, {{-22, -23}, True}, {{-15, -19}, 
+                    True}, {{-2, -3}, True}, {{-20, -23}, True}, {{0, -5}, 
+                    True}, {{-14, -12}, True}, {{9, 13}, True}, {{19, 13}, 
+                    True}, {{-20, -19}, True}, {{12, 9}, True}, {{-1, 1}, 
+                    True}, {{5, 6}, True}, {{-24, -23}, True}, {{22, 23}, 
+                    True}, {{24, 25}, True}, {{-8, -9}, True}, {{-10, -11}, 
+                    True}, {{-22, -19}, True}, {{5, 11}, True}, {{-10, -4}, 
+                    True}, {{-2, 0}, True}, {{3, 2}, True}, {{-14, -10}, 
+                    True}, {{-15, -11}, True}, {{-5, -7}, False}, {{-2, 2}, 
+                    True}, {{-19, -23}, True}, {{-11, -14}, True}, {{2, 3}, 
+                    True}, {{8, 3}, True}, {{-6, -9}, True}, {{14, 12}, 
+                    True}, {{-3, -7}, True}, {{4, 3}, True}, {{-5, -11}, 
+                    True}, {{8, 7}, True}, {{-14, -18}, True}, {{-16, -18}, 
+                    False}, {{17, 15}, True}}}}, {
+                    DateObject[{2018, 10, 14}, 
+                    TimeObject[{11, 18, 54.770735}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                    2, {{{2, 0}, True}, {{-7, -4}, True}, {{-17, -22}, 
+                    True}, {{8, 10}, True}, {{-17, -16}, True}, {{7, 9}, 
+                    True}, {{10, 9}, True}, {{-21, -19}, True}, {{-16, -13}, 
+                    True}, {{23, 19}, True}, {{9, 7}, True}, {{15, 11}, 
+                    True}, {{13, 11}, True}, {{-21, -19}, True}, {{3, 4}, 
+                    True}, {{13, 8}, True}, {{19, 14}, True}, {{-9, -5}, 
+                    True}, {{1, 0}, True}, {{23, 24}, True}, {{4, -2}, 
+                    True}, {{22, 28}, True}, {{6, 10}, True}, {{-11, -5}, 
+                    True}, {{-16, -14}, True}, {{0, -1}, True}, {{-1, -2}, 
+                    True}, {{-1, -6}, True}, {{5, 4}, True}, {{12, 15}, 
+                    True}, {{-23, -22}, True}, {{-15, -14}, True}, {{-6, -4}, 
+                    True}, {{-7, -8}, True}, {{20, 21}, True}, {{0, -2}, 
+                    True}, {{6, 7}, True}, {{-22, -19}, True}, {{-14, -16}, 
+                    True}, {{-17, -18}, False}, {{-17, -15}, True}, {{12, 13},
+                     True}, {{-9, -4}, True}, {{-9, -8}, False}, {{19, 23}, 
+                    True}, {{21, 18}, False}, {{22, 19}, True}, {{-23, -19}, 
+                    True}, {{-17, -13}, True}, {{-3, -4}, True}, {{5, 10}, 
+                    True}, {{-14, -11}, True}, {{-7, -5}, True}, {{12, 13}, 
+                    True}, {{13, 9}, True}, {{13, 14}, True}, {{-7, -5}, 
+                    True}, {{9, 15}, True}, {{24, 26}, True}, {{-11, -14}, 
+                    True}, {{1, 0}, False}, {{-2, -7}, True}, {{22, 24}, 
+                    True}, {{-23, -21}, True}, {{-8, -10}, False}, {{16, 20}, 
+                    True}, {{-17, -13}, True}, {{-16, -22}, True}, {{18, 22}, 
+                    True}, {{-6, -4}, True}, {{-10, -14}, True}, {{-15, -18}, 
+                    True}, {{-23, -18}, True}, {{5, 4}, True}, {{-6, -11}, 
+                    True}, {{-14, -9}, True}, {{-21, -20}, 
+                    False}, {{-17, -13}, True}, {{-14, -13}, True}, {{12, 11},
+                     False}, {{-9, -11}, True}, {{-13, -11}, True}, {{18, 21},
+                     True}, {{9, 8}, True}, {{-10, -14}, True}, {{14, 12}, 
+                    False}, {{-21, -23}, True}, {{-5, -1}, True}, {{14, 11}, 
+                    True}, {{12, 13}, True}, {{15, 13}, True}, {{-19, -17}, 
+                    True}, {{7, 9}, True}, {{-23, -26}, True}, {{-23, -26}, 
+                    True}, {{-9, -13}, True}, {{-16, -13}, True}, {{18, 20}, 
+                    True}, {{-3, -2}, False}, {{-22, -23}, True}}}}, {
+                    DateObject[{2018, 10, 15}, 
+                    TimeObject[{11, 29, 57.959642}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                    3, {{{-2, -5}, True}, {{-14, -13}, True}, {{-13, -19}, 
+                    True}, {{4, 8}, True}, {{4, -1}, True}, {{14, 13}, 
+                    True}, {{22, 24}, True}, {{8, 9}, True}, {{-18, -21}, 
+                    True}, {{-13, -16}, True}, {{-21, -26}, 
+                    True}, {{-15, -10}, True}, {{3, 1}, True}, {{-5, 1}, 
+                    True}, {{-10, -13}, True}, {{-24, -28}, 
+                    True}, {{-24, -25}, False}, {{-7, -6}, True}, {{4, 0}, 
+                    True}, {{1, -3}, True}, {{-23, -29}, True}, {{11, 13}, 
+                    True}, {{17, 16}, True}, {{18, 24}, True}, {{-20, -22}, 
+                    True}, {{4, -1}, True}, {{24, 18}, True}, {{-2, 1}, 
+                    True}, {{-19, -18}, True}, {{-7, -4}, True}, {{-16, -18}, 
+                    True}, {{7, 11}, True}, {{18, 15}, True}, {{-17, -15}, 
+                    True}, {{2, 3}, True}, {{-15, -18}, True}, {{-15, -19}, 
+                    True}, {{2, 0}, True}, {{-15, -17}, True}, {{22, 23}, 
+                    True}, {{-23, -24}, True}, {{-15, -14}, True}, {{-2, -5}, 
+                    True}, {{2, 0}, True}, {{11, 9}, True}, {{-24, -21}, 
+                    True}, {{-17, -20}, True}, {{-4, -9}, True}, {{14, 19}, 
+                    True}, {{6, 4}, True}, {{1, -4}, True}, {{19, 22}, 
+                    True}, {{-13, -9}, True}, {{16, 15}, False}, {{-2, 1}, 
+                    True}, {{0, 2}, True}, {{-13, -16}, True}, {{-12, -11}, 
+                    False}, {{11, 10}, True}, {{1, -1}, True}, {{-1, -5}, 
+                    True}, {{22, 19}, True}, {{22, 20}, True}, {{-2, 0}, 
+                    True}, {{19, 18}, True}, {{-19, -14}, True}, {{24, 25}, 
+                    True}, {{-2, -6}, True}, {{-12, -13}, True}, {{-21, -20}, 
+                    True}, {{1, -5}, True}, {{15, 11}, True}, {{0, 2}, 
+                    True}, {{19, 14}, True}, {{14, 16}, True}, {{-10, -16}, 
+                    True}, {{-24, -28}, True}, {{5, 6}, True}, {{-21, -17}, 
+                    True}, {{-7, -9}, True}, {{4, 8}, True}, {{17, 16}, 
+                    True}, {{-17, -20}, True}, {{-7, -11}, True}, {{-10, -11},
+                     True}, {{-19, -20}, True}, {{-18, -15}, True}, {{-2, -5},
+                     True}, {{-18, -12}, True}, {{6, 3}, True}, {{11, 17}, 
+                    True}, {{-6, -8}, True}, {{-11, -13}, True}, {{-10, -13}, 
+                    True}, {{12, 16}, True}, {{20, 22}, True}, {{10, 8}, 
+                    True}, {{-4, -7}, True}, {{12, 17}, True}, {{20, 15}, 
+                    True}}}}, {
+                    DateObject[{2018, 10, 16}, 
+                    TimeObject[{10, 45, 24.794594}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                    4, {{{11, 7}, True}, {{-15, -14}, True}, {{15, 17}, 
+                    True}, {{-17, -15}, True}, {{-16, -18}, True}, {{-5, -4}, 
+                    True}, {{-1, -2}, True}, {{-12, -13}, True}, {{-3, -6}, 
+                    True}, {{-16, -19}, True}, {{18, 15}, True}, {{12, 13}, 
+                    True}, {{-9, -13}, True}, {{-16, -17}, True}, {{-1, -3}, 
+                    True}, {{14, 15}, True}, {{17, 19}, True}, {{3, 5}, 
+                    True}, {{18, 21}, True}, {{-16, -20}, True}, {{0, -5}, 
+                    True}, {{9, 11}, True}, {{4, 2}, True}, {{5, 0}, True}, {{
+                    15, 18}, True}, {{-24, -20}, True}, {{-16, -14}, True}, {{
+                    12, 14}, True}, {{17, 12}, True}, {{-2, 0}, True}, {{12, 
+                    15}, True}, {{13, 10}, True}, {{-9, -11}, True}, {{16, 
+                    10}, True}, {{-24, -21}, True}, {{-19, -17}, True}, {{
+                    1, -2}, True}, {{-16, -19}, True}, {{-8, -9}, True}, {{6, 
+                    3}, True}, {{6, 3}, True}, {{-7, -10}, True}, {{-6, 0}, 
+                    True}, {{1, 0}, True}, {{-1, 2}, True}, {{8, 12}, 
+                    True}, {{-8, -9}, True}, {{-9, -10}, True}, {{-19, -20}, 
+                    True}, {{7, 6}, True}, {{19, 18}, True}, {{0, -5}, 
+                    True}, {{-24, -19}, True}, {{21, 20}, True}, {{-13, -11}, 
+                    True}, {{-16, -15}, False}, {{3, 4}, True}, {{-20, -19}, 
+                    True}, {{-20, -22}, True}, {{-19, -23}, True}, {{17, 13}, 
+                    True}, {{4, 3}, True}, {{21, 27}, True}, {{-4, -2}, 
+                    True}, {{-7, -6}, False}, {{-16, -17}, True}, {{-1, 2}, 
+                    True}, {{-22, -21}, False}, {{15, 10}, True}, {{-18, -17},
+                     True}, {{-4, -1}, False}, {{-10, -11}, True}, {{-10, -9},
+                     True}, {{12, 13}, True}, {{-18, -22}, True}, {{18, 15}, 
+                    True}, {{-15, -17}, True}, {{16, 18}, True}, {{-4, -1}, 
+                    True}, {{-8, -6}, True}, {{-24, -25}, True}, {{-15, -13}, 
+                    True}, {{13, 12}, True}, {{20, 19}, True}, {{18, 20}, 
+                    True}, {{10, 12}, True}, {{9, 11}, True}, {{-10, -13}, 
+                    True}, {{0, 1}, True}, {{8, 11}, True}, {{-3, 3}, 
+                    True}, {{-8, -6}, True}, {{-24, -19}, True}, {{-6, -5}, 
+                    True}, {{23, 25}, True}, {{14, 11}, True}, {{21, 20}, 
+                    False}, {{15, 18}, True}, {{16, 18}, True}, {{-13, -15}, 
+                    True}}}}}]; EmitSound[
+                  Part[$CellContext`raw$9043, 1]]; $CellContext`enext$9044 = 
+                 False, $CellContext`enext$9044 = 
+                 True; $CellContext`e1$9044 = ($CellContext`e2$9044 = 
+                  False); $CellContext`name2$9044 = "[2]"]), Enabled -> 
+             Dynamic[$CellContext`e1$9044], Appearance -> Automatic, 
+             Evaluator -> Automatic, Method -> "Preemptive"], 
+            ButtonBox[
+             DynamicBox[
+              ToBoxes[$CellContext`name2$9044, StandardForm]], 
+             ButtonFunction :> (AppendTo[$CellContext`questions$9044, 
+                Part[$CellContext`raw$9043, 2]]; 
+              AppendTo[$CellContext`truefalse$9044, 
+                Part[$CellContext`raw$9043, 2, 1] < 
+                Part[$CellContext`raw$9043, 2, 2]]; If[
+                
+                Part[$CellContext`truefalse$9044, -1], $CellContext`raw$9043 = \
+$CellContext`TwoPitchReTrain["data", {{
+                    DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{13, 25, 25.97506`8.167131541751818}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                    31, {{{-6, -4}, True}, {{15, 19}, True}, {{10, 9}, 
+                    True}, {{-4, -9}, True}, {{9, 8}, False}, {{9, 7}, 
+                    False}, {{5, 9}, True}, {{5, 3}, True}, {{-17, -14}, 
+                    True}, {{-21, -19}, True}, {{-18, -22}, True}, {{18, 21}, 
+                    True}, {{-6, -10}, True}, {{-19, -17}, True}, {{-4, -1}, 
+                    True}, {{6, 4}, True}, {{-24, -22}, True}, {{-5, 0}, 
+                    True}, {{6, 5}, True}, {{21, 18}, True}, {{20, 19}, 
+                    True}, {{-1, 1}, True}, {{16, 13}, True}, {{-13, -15}, 
+                    True}, {{5, 4}, True}, {{-1, -3}, True}, {{2, -1}, 
+                    True}, {{11, 9}, True}, {{22, 19}, True}, {{-3, -6}, 
+                    True}, {{19, 21}, True}, {{15, 20}, True}, {{21, 27}, 
+                    True}, {{22, 16}, True}, {{-13, -16}, True}, {{-21, -17}, 
+                    True}, {{-3, -4}, True}, {{-7, -6}, True}, {{3, 0}, 
+                    True}, {{-12, -15}, True}, {{-12, -9}, True}, {{9, 11}, 
+                    True}, {{-11, -15}, True}, {{-2, -3}, True}, {{0, -4}, 
+                    True}, {{-15, -11}, True}, {{-10, -6}, True}, {{0, 5}, 
+                    True}, {{3, 1}, True}, {{0, 3}, True}, {{16, 19}, 
+                    True}, {{-4, -1}, True}, {{-2, -5}, True}, {{4, -2}, 
+                    True}, {{6, 7}, True}, {{-1, 1}, True}, {{-14, -8}, 
+                    True}, {{16, 18}, True}, {{21, 20}, True}, {{3, 7}, 
+                    True}, {{3, 5}, False}, {{16, 17}, True}, {{24, 18}, 
+                    True}, {{5, 9}, True}, {{4, -1}, True}, {{23, 25}, 
+                    True}, {{-6, -4}, True}, {{2, 4}, True}, {{13, 14}, 
+                    True}, {{-17, -12}, True}, {{-16, -18}, True}, {{10, 9}, 
+                    False}, {{11, 15}, True}, {{22, 21}, True}, {{-3, -2}, 
+                    False}, {{-20, -21}, True}, {{-21, -19}, True}, {{21, 23},
+                     True}, {{-24, -23}, True}, {{-13, -17}, 
+                    True}, {{-16, -22}, True}, {{22, 20}, True}, {{8, 11}, 
+                    True}, {{4, 8}, True}, {{10, 9}, True}, {{-2, 0}, 
+                    True}, {{9, 13}, True}, {{-19, -23}, True}, {{-8, -10}, 
+                    False}, {{0, -3}, True}, {{-6, 0}, True}, {{16, 19}, 
+                    True}, {{8, 12}, True}, {{-4, 1}, True}, {{23, 25}, 
+                    True}, {{-21, -26}, True}, {{13, 10}, False}, {{-20, -23},
+                     True}, {{13, 16}, True}, {{14, 18}, True}}}}, {
+                    DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{17, 43, 6.547292`7.56863669779946}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                    11, {{{16, 15}, True}, {{-13, -17}, True}, {{-16, -15}, 
+                    True}, {{6, 3}, True}, {{18, 19}, True}, {{13, 16}, 
+                    True}, {{-22, -26}, True}, {{-4, -5}, True}, {{20, 16}, 
+                    True}, {{19, 18}, False}, {{-23, -20}, True}, {{13, 19}, 
+                    True}, {{-13, -12}, True}, {{-19, -21}, 
+                    True}, {{-22, -28}, True}, {{22, 26}, True}, {{3, -2}, 
+                    True}, {{-1, 0}, True}, {{14, 18}, True}, {{-8, -12}, 
+                    True}, {{4, 0}, True}, {{-24, -22}, True}, {{-19, -13}, 
+                    True}, {{9, 15}, True}, {{18, 16}, True}, {{2, 4}, 
+                    True}, {{-9, -10}, True}, {{7, 9}, True}, {{-1, 3}, 
+                    True}, {{22, 24}, True}, {{13, 16}, True}, {{-20, -16}, 
+                    True}, {{21, 26}, True}, {{-19, -13}, True}, {{-3, -4}, 
+                    True}, {{24, 27}, True}, {{19, 18}, True}, {{-8, -6}, 
+                    True}, {{13, 14}, False}, {{24, 22}, True}, {{-20, -22}, 
+                    True}, {{-6, -9}, True}, {{1, 0}, True}, {{5, 4}, 
+                    True}, {{-19, -20}, True}, {{12, 10}, False}, {{-2, -7}, 
+                    True}, {{22, 25}, True}, {{-18, -17}, True}, {{-6, -10}, 
+                    True}, {{-2, -6}, True}, {{15, 17}, True}, {{8, 9}, 
+                    True}, {{21, 22}, True}, {{-1, 2}, True}, {{22, 17}, 
+                    True}, {{-7, -3}, True}, {{11, 7}, True}, {{4, 1}, 
+                    True}, {{-19, -21}, True}, {{19, 18}, True}, {{-15, -18}, 
+                    True}, {{14, 20}, True}, {{20, 15}, True}, {{-9, -7}, 
+                    True}, {{9, 14}, True}, {{14, 16}, True}, {{7, 6}, 
+                    True}, {{3, 1}, False}, {{-20, -25}, True}, {{14, 13}, 
+                    True}, {{-21, -18}, True}, {{5, 2}, True}, {{-10, -9}, 
+                    False}, {{-17, -18}, True}, {{-5, -1}, True}, {{6, 5}, 
+                    True}, {{-17, -14}, True}, {{-21, -27}, 
+                    True}, {{-24, -29}, True}, {{-20, -18}, True}, {{6, 8}, 
+                    True}, {{17, 14}, True}, {{-24, -25}, True}, {{5, 9}, 
+                    True}, {{-10, -9}, True}, {{5, 1}, True}, {{-3, -6}, 
+                    True}, {{11, 10}, True}, {{14, 15}, True}, {{-23, -25}, 
+                    True}, {{-18, -17}, True}, {{2, 0}, True}, {{15, 12}, 
+                    False}, {{4, 10}, True}, {{11, 14}, True}, {{-8, -11}, 
+                    True}, {{-18, -16}, True}, {{-24, -23}, 
+                    True}, {{-19, -23}, True}}}}, {
+                    DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{21, 11, 41.209715`8.36757458899875}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                    11, {{{-5, -10}, True}, {{22, 20}, True}, {{-8, -2}, 
+                    True}, {{-10, -11}, True}, {{19, 23}, True}, {{17, 16}, 
+                    True}, {{-18, -13}, True}, {{3, 4}, False}, {{11, 16}, 
+                    True}, {{22, 21}, True}, {{-23, -20}, True}, {{-2, -3}, 
+                    True}, {{-17, -16}, True}, {{-15, -14}, True}, {{11, 12}, 
+                    True}, {{-11, -17}, True}, {{20, 23}, True}, {{4, 1}, 
+                    True}, {{-2, -5}, True}, {{13, 10}, True}, {{7, 12}, 
+                    True}, {{9, 5}, True}, {{-3, -9}, True}, {{8, 12}, 
+                    True}, {{6, 4}, True}, {{20, 21}, False}, {{-24, -25}, 
+                    True}, {{-20, -17}, True}, {{-14, -15}, True}, {{-3, -1}, 
+                    True}, {{-9, -11}, True}, {{-15, -13}, True}, {{-5, 0}, 
+                    True}, {{-23, -20}, True}, {{0, -1}, True}, {{7, 10}, 
+                    True}, {{8, 2}, True}, {{16, 13}, True}, {{-16, -14}, 
+                    True}, {{-2, -4}, True}, {{-20, -16}, True}, {{-4, -8}, 
+                    True}, {{2, 3}, True}, {{8, 5}, True}, {{11, 10}, 
+                    True}, {{8, 9}, True}, {{-21, -26}, True}, {{17, 16}, 
+                    False}, {{17, 19}, True}, {{13, 15}, True}, {{12, 15}, 
+                    True}, {{17, 11}, True}, {{-14, -11}, True}, {{4, 9}, 
+                    True}, {{-3, 1}, True}, {{1, 5}, True}, {{17, 16}, 
+                    True}, {{-17, -16}, True}, {{9, 6}, True}, {{15, 18}, 
+                    True}, {{7, 11}, True}, {{-22, -23}, True}, {{-15, -19}, 
+                    True}, {{-2, -3}, True}, {{-20, -23}, True}, {{0, -5}, 
+                    True}, {{-14, -12}, True}, {{9, 13}, True}, {{19, 13}, 
+                    True}, {{-20, -19}, True}, {{12, 9}, True}, {{-1, 1}, 
+                    True}, {{5, 6}, True}, {{-24, -23}, True}, {{22, 23}, 
+                    True}, {{24, 25}, True}, {{-8, -9}, True}, {{-10, -11}, 
+                    True}, {{-22, -19}, True}, {{5, 11}, True}, {{-10, -4}, 
+                    True}, {{-2, 0}, True}, {{3, 2}, True}, {{-14, -10}, 
+                    True}, {{-15, -11}, True}, {{-5, -7}, False}, {{-2, 2}, 
+                    True}, {{-19, -23}, True}, {{-11, -14}, True}, {{2, 3}, 
+                    True}, {{8, 3}, True}, {{-6, -9}, True}, {{14, 12}, 
+                    True}, {{-3, -7}, True}, {{4, 3}, True}, {{-5, -11}, 
+                    True}, {{8, 7}, True}, {{-14, -18}, True}, {{-16, -18}, 
+                    False}, {{17, 15}, True}}}}, {
+                    DateObject[{2018, 10, 14}, 
+                    TimeObject[{11, 18, 54.770735}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                    2, {{{2, 0}, True}, {{-7, -4}, True}, {{-17, -22}, 
+                    True}, {{8, 10}, True}, {{-17, -16}, True}, {{7, 9}, 
+                    True}, {{10, 9}, True}, {{-21, -19}, True}, {{-16, -13}, 
+                    True}, {{23, 19}, True}, {{9, 7}, True}, {{15, 11}, 
+                    True}, {{13, 11}, True}, {{-21, -19}, True}, {{3, 4}, 
+                    True}, {{13, 8}, True}, {{19, 14}, True}, {{-9, -5}, 
+                    True}, {{1, 0}, True}, {{23, 24}, True}, {{4, -2}, 
+                    True}, {{22, 28}, True}, {{6, 10}, True}, {{-11, -5}, 
+                    True}, {{-16, -14}, True}, {{0, -1}, True}, {{-1, -2}, 
+                    True}, {{-1, -6}, True}, {{5, 4}, True}, {{12, 15}, 
+                    True}, {{-23, -22}, True}, {{-15, -14}, True}, {{-6, -4}, 
+                    True}, {{-7, -8}, True}, {{20, 21}, True}, {{0, -2}, 
+                    True}, {{6, 7}, True}, {{-22, -19}, True}, {{-14, -16}, 
+                    True}, {{-17, -18}, False}, {{-17, -15}, True}, {{12, 13},
+                     True}, {{-9, -4}, True}, {{-9, -8}, False}, {{19, 23}, 
+                    True}, {{21, 18}, False}, {{22, 19}, True}, {{-23, -19}, 
+                    True}, {{-17, -13}, True}, {{-3, -4}, True}, {{5, 10}, 
+                    True}, {{-14, -11}, True}, {{-7, -5}, True}, {{12, 13}, 
+                    True}, {{13, 9}, True}, {{13, 14}, True}, {{-7, -5}, 
+                    True}, {{9, 15}, True}, {{24, 26}, True}, {{-11, -14}, 
+                    True}, {{1, 0}, False}, {{-2, -7}, True}, {{22, 24}, 
+                    True}, {{-23, -21}, True}, {{-8, -10}, False}, {{16, 20}, 
+                    True}, {{-17, -13}, True}, {{-16, -22}, True}, {{18, 22}, 
+                    True}, {{-6, -4}, True}, {{-10, -14}, True}, {{-15, -18}, 
+                    True}, {{-23, -18}, True}, {{5, 4}, True}, {{-6, -11}, 
+                    True}, {{-14, -9}, True}, {{-21, -20}, 
+                    False}, {{-17, -13}, True}, {{-14, -13}, True}, {{12, 11},
+                     False}, {{-9, -11}, True}, {{-13, -11}, True}, {{18, 21},
+                     True}, {{9, 8}, True}, {{-10, -14}, True}, {{14, 12}, 
+                    False}, {{-21, -23}, True}, {{-5, -1}, True}, {{14, 11}, 
+                    True}, {{12, 13}, True}, {{15, 13}, True}, {{-19, -17}, 
+                    True}, {{7, 9}, True}, {{-23, -26}, True}, {{-23, -26}, 
+                    True}, {{-9, -13}, True}, {{-16, -13}, True}, {{18, 20}, 
+                    True}, {{-3, -2}, False}, {{-22, -23}, True}}}}, {
+                    DateObject[{2018, 10, 15}, 
+                    TimeObject[{11, 29, 57.959642}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                    3, {{{-2, -5}, True}, {{-14, -13}, True}, {{-13, -19}, 
+                    True}, {{4, 8}, True}, {{4, -1}, True}, {{14, 13}, 
+                    True}, {{22, 24}, True}, {{8, 9}, True}, {{-18, -21}, 
+                    True}, {{-13, -16}, True}, {{-21, -26}, 
+                    True}, {{-15, -10}, True}, {{3, 1}, True}, {{-5, 1}, 
+                    True}, {{-10, -13}, True}, {{-24, -28}, 
+                    True}, {{-24, -25}, False}, {{-7, -6}, True}, {{4, 0}, 
+                    True}, {{1, -3}, True}, {{-23, -29}, True}, {{11, 13}, 
+                    True}, {{17, 16}, True}, {{18, 24}, True}, {{-20, -22}, 
+                    True}, {{4, -1}, True}, {{24, 18}, True}, {{-2, 1}, 
+                    True}, {{-19, -18}, True}, {{-7, -4}, True}, {{-16, -18}, 
+                    True}, {{7, 11}, True}, {{18, 15}, True}, {{-17, -15}, 
+                    True}, {{2, 3}, True}, {{-15, -18}, True}, {{-15, -19}, 
+                    True}, {{2, 0}, True}, {{-15, -17}, True}, {{22, 23}, 
+                    True}, {{-23, -24}, True}, {{-15, -14}, True}, {{-2, -5}, 
+                    True}, {{2, 0}, True}, {{11, 9}, True}, {{-24, -21}, 
+                    True}, {{-17, -20}, True}, {{-4, -9}, True}, {{14, 19}, 
+                    True}, {{6, 4}, True}, {{1, -4}, True}, {{19, 22}, 
+                    True}, {{-13, -9}, True}, {{16, 15}, False}, {{-2, 1}, 
+                    True}, {{0, 2}, True}, {{-13, -16}, True}, {{-12, -11}, 
+                    False}, {{11, 10}, True}, {{1, -1}, True}, {{-1, -5}, 
+                    True}, {{22, 19}, True}, {{22, 20}, True}, {{-2, 0}, 
+                    True}, {{19, 18}, True}, {{-19, -14}, True}, {{24, 25}, 
+                    True}, {{-2, -6}, True}, {{-12, -13}, True}, {{-21, -20}, 
+                    True}, {{1, -5}, True}, {{15, 11}, True}, {{0, 2}, 
+                    True}, {{19, 14}, True}, {{14, 16}, True}, {{-10, -16}, 
+                    True}, {{-24, -28}, True}, {{5, 6}, True}, {{-21, -17}, 
+                    True}, {{-7, -9}, True}, {{4, 8}, True}, {{17, 16}, 
+                    True}, {{-17, -20}, True}, {{-7, -11}, True}, {{-10, -11},
+                     True}, {{-19, -20}, True}, {{-18, -15}, True}, {{-2, -5},
+                     True}, {{-18, -12}, True}, {{6, 3}, True}, {{11, 17}, 
+                    True}, {{-6, -8}, True}, {{-11, -13}, True}, {{-10, -13}, 
+                    True}, {{12, 16}, True}, {{20, 22}, True}, {{10, 8}, 
+                    True}, {{-4, -7}, True}, {{12, 17}, True}, {{20, 15}, 
+                    True}}}}, {
+                    DateObject[{2018, 10, 16}, 
+                    TimeObject[{10, 45, 24.794594}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                    4, {{{11, 7}, True}, {{-15, -14}, True}, {{15, 17}, 
+                    True}, {{-17, -15}, True}, {{-16, -18}, True}, {{-5, -4}, 
+                    True}, {{-1, -2}, True}, {{-12, -13}, True}, {{-3, -6}, 
+                    True}, {{-16, -19}, True}, {{18, 15}, True}, {{12, 13}, 
+                    True}, {{-9, -13}, True}, {{-16, -17}, True}, {{-1, -3}, 
+                    True}, {{14, 15}, True}, {{17, 19}, True}, {{3, 5}, 
+                    True}, {{18, 21}, True}, {{-16, -20}, True}, {{0, -5}, 
+                    True}, {{9, 11}, True}, {{4, 2}, True}, {{5, 0}, True}, {{
+                    15, 18}, True}, {{-24, -20}, True}, {{-16, -14}, True}, {{
+                    12, 14}, True}, {{17, 12}, True}, {{-2, 0}, True}, {{12, 
+                    15}, True}, {{13, 10}, True}, {{-9, -11}, True}, {{16, 
+                    10}, True}, {{-24, -21}, True}, {{-19, -17}, True}, {{
+                    1, -2}, True}, {{-16, -19}, True}, {{-8, -9}, True}, {{6, 
+                    3}, True}, {{6, 3}, True}, {{-7, -10}, True}, {{-6, 0}, 
+                    True}, {{1, 0}, True}, {{-1, 2}, True}, {{8, 12}, 
+                    True}, {{-8, -9}, True}, {{-9, -10}, True}, {{-19, -20}, 
+                    True}, {{7, 6}, True}, {{19, 18}, True}, {{0, -5}, 
+                    True}, {{-24, -19}, True}, {{21, 20}, True}, {{-13, -11}, 
+                    True}, {{-16, -15}, False}, {{3, 4}, True}, {{-20, -19}, 
+                    True}, {{-20, -22}, True}, {{-19, -23}, True}, {{17, 13}, 
+                    True}, {{4, 3}, True}, {{21, 27}, True}, {{-4, -2}, 
+                    True}, {{-7, -6}, False}, {{-16, -17}, True}, {{-1, 2}, 
+                    True}, {{-22, -21}, False}, {{15, 10}, True}, {{-18, -17},
+                     True}, {{-4, -1}, False}, {{-10, -11}, True}, {{-10, -9},
+                     True}, {{12, 13}, True}, {{-18, -22}, True}, {{18, 15}, 
+                    True}, {{-15, -17}, True}, {{16, 18}, True}, {{-4, -1}, 
+                    True}, {{-8, -6}, True}, {{-24, -25}, True}, {{-15, -13}, 
+                    True}, {{13, 12}, True}, {{20, 19}, True}, {{18, 20}, 
+                    True}, {{10, 12}, True}, {{9, 11}, True}, {{-10, -13}, 
+                    True}, {{0, 1}, True}, {{8, 11}, True}, {{-3, 3}, 
+                    True}, {{-8, -6}, True}, {{-24, -19}, True}, {{-6, -5}, 
+                    True}, {{23, 25}, True}, {{14, 11}, True}, {{21, 20}, 
+                    False}, {{15, 18}, True}, {{16, 18}, True}, {{-13, -15}, 
+                    True}}}}}]; EmitSound[
+                  Part[$CellContext`raw$9043, 1]]; $CellContext`enext$9044 = 
+                 False, $CellContext`enext$9044 = 
+                 True; $CellContext`e1$9044 = ($CellContext`e2$9044 = 
+                  False); $CellContext`name1$9044 = "[1]"]), Enabled -> 
+             Dynamic[$CellContext`e2$9044], Appearance -> Automatic, 
+             Evaluator -> Automatic, Method -> "Preemptive"], 
+            ButtonBox[
+            "\">\"", 
+             ButtonFunction :> ($CellContext`raw$9043 = \
+$CellContext`TwoPitchReTrain["data", {{
+                   DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{13, 25, 25.97506`8.167131541751818}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                   31, {{{-6, -4}, True}, {{15, 19}, True}, {{10, 9}, 
+                    True}, {{-4, -9}, True}, {{9, 8}, False}, {{9, 7}, 
+                    False}, {{5, 9}, True}, {{5, 3}, True}, {{-17, -14}, 
+                    True}, {{-21, -19}, True}, {{-18, -22}, True}, {{18, 21}, 
+                    True}, {{-6, -10}, True}, {{-19, -17}, True}, {{-4, -1}, 
+                    True}, {{6, 4}, True}, {{-24, -22}, True}, {{-5, 0}, 
+                    True}, {{6, 5}, True}, {{21, 18}, True}, {{20, 19}, 
+                    True}, {{-1, 1}, True}, {{16, 13}, True}, {{-13, -15}, 
+                    True}, {{5, 4}, True}, {{-1, -3}, True}, {{2, -1}, 
+                    True}, {{11, 9}, True}, {{22, 19}, True}, {{-3, -6}, 
+                    True}, {{19, 21}, True}, {{15, 20}, True}, {{21, 27}, 
+                    True}, {{22, 16}, True}, {{-13, -16}, True}, {{-21, -17}, 
+                    True}, {{-3, -4}, True}, {{-7, -6}, True}, {{3, 0}, 
+                    True}, {{-12, -15}, True}, {{-12, -9}, True}, {{9, 11}, 
+                    True}, {{-11, -15}, True}, {{-2, -3}, True}, {{0, -4}, 
+                    True}, {{-15, -11}, True}, {{-10, -6}, True}, {{0, 5}, 
+                    True}, {{3, 1}, True}, {{0, 3}, True}, {{16, 19}, 
+                    True}, {{-4, -1}, True}, {{-2, -5}, True}, {{4, -2}, 
+                    True}, {{6, 7}, True}, {{-1, 1}, True}, {{-14, -8}, 
+                    True}, {{16, 18}, True}, {{21, 20}, True}, {{3, 7}, 
+                    True}, {{3, 5}, False}, {{16, 17}, True}, {{24, 18}, 
+                    True}, {{5, 9}, True}, {{4, -1}, True}, {{23, 25}, 
+                    True}, {{-6, -4}, True}, {{2, 4}, True}, {{13, 14}, 
+                    True}, {{-17, -12}, True}, {{-16, -18}, True}, {{10, 9}, 
+                    False}, {{11, 15}, True}, {{22, 21}, True}, {{-3, -2}, 
+                    False}, {{-20, -21}, True}, {{-21, -19}, True}, {{21, 23},
+                     True}, {{-24, -23}, True}, {{-13, -17}, 
+                    True}, {{-16, -22}, True}, {{22, 20}, True}, {{8, 11}, 
+                    True}, {{4, 8}, True}, {{10, 9}, True}, {{-2, 0}, 
+                    True}, {{9, 13}, True}, {{-19, -23}, True}, {{-8, -10}, 
+                    False}, {{0, -3}, True}, {{-6, 0}, True}, {{16, 19}, 
+                    True}, {{8, 12}, True}, {{-4, 1}, True}, {{23, 25}, 
+                    True}, {{-21, -26}, True}, {{13, 10}, False}, {{-20, -23},
+                     True}, {{13, 16}, True}, {{14, 18}, True}}}}, {
+                   DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{17, 43, 6.547292`7.56863669779946}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                   11, {{{16, 15}, True}, {{-13, -17}, True}, {{-16, -15}, 
+                    True}, {{6, 3}, True}, {{18, 19}, True}, {{13, 16}, 
+                    True}, {{-22, -26}, True}, {{-4, -5}, True}, {{20, 16}, 
+                    True}, {{19, 18}, False}, {{-23, -20}, True}, {{13, 19}, 
+                    True}, {{-13, -12}, True}, {{-19, -21}, 
+                    True}, {{-22, -28}, True}, {{22, 26}, True}, {{3, -2}, 
+                    True}, {{-1, 0}, True}, {{14, 18}, True}, {{-8, -12}, 
+                    True}, {{4, 0}, True}, {{-24, -22}, True}, {{-19, -13}, 
+                    True}, {{9, 15}, True}, {{18, 16}, True}, {{2, 4}, 
+                    True}, {{-9, -10}, True}, {{7, 9}, True}, {{-1, 3}, 
+                    True}, {{22, 24}, True}, {{13, 16}, True}, {{-20, -16}, 
+                    True}, {{21, 26}, True}, {{-19, -13}, True}, {{-3, -4}, 
+                    True}, {{24, 27}, True}, {{19, 18}, True}, {{-8, -6}, 
+                    True}, {{13, 14}, False}, {{24, 22}, True}, {{-20, -22}, 
+                    True}, {{-6, -9}, True}, {{1, 0}, True}, {{5, 4}, 
+                    True}, {{-19, -20}, True}, {{12, 10}, False}, {{-2, -7}, 
+                    True}, {{22, 25}, True}, {{-18, -17}, True}, {{-6, -10}, 
+                    True}, {{-2, -6}, True}, {{15, 17}, True}, {{8, 9}, 
+                    True}, {{21, 22}, True}, {{-1, 2}, True}, {{22, 17}, 
+                    True}, {{-7, -3}, True}, {{11, 7}, True}, {{4, 1}, 
+                    True}, {{-19, -21}, True}, {{19, 18}, True}, {{-15, -18}, 
+                    True}, {{14, 20}, True}, {{20, 15}, True}, {{-9, -7}, 
+                    True}, {{9, 14}, True}, {{14, 16}, True}, {{7, 6}, 
+                    True}, {{3, 1}, False}, {{-20, -25}, True}, {{14, 13}, 
+                    True}, {{-21, -18}, True}, {{5, 2}, True}, {{-10, -9}, 
+                    False}, {{-17, -18}, True}, {{-5, -1}, True}, {{6, 5}, 
+                    True}, {{-17, -14}, True}, {{-21, -27}, 
+                    True}, {{-24, -29}, True}, {{-20, -18}, True}, {{6, 8}, 
+                    True}, {{17, 14}, True}, {{-24, -25}, True}, {{5, 9}, 
+                    True}, {{-10, -9}, True}, {{5, 1}, True}, {{-3, -6}, 
+                    True}, {{11, 10}, True}, {{14, 15}, True}, {{-23, -25}, 
+                    True}, {{-18, -17}, True}, {{2, 0}, True}, {{15, 12}, 
+                    False}, {{4, 10}, True}, {{11, 14}, True}, {{-8, -11}, 
+                    True}, {{-18, -16}, True}, {{-24, -23}, 
+                    True}, {{-19, -23}, True}}}}, {
+                   DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{21, 11, 41.209715`8.36757458899875}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                   11, {{{-5, -10}, True}, {{22, 20}, True}, {{-8, -2}, 
+                    True}, {{-10, -11}, True}, {{19, 23}, True}, {{17, 16}, 
+                    True}, {{-18, -13}, True}, {{3, 4}, False}, {{11, 16}, 
+                    True}, {{22, 21}, True}, {{-23, -20}, True}, {{-2, -3}, 
+                    True}, {{-17, -16}, True}, {{-15, -14}, True}, {{11, 12}, 
+                    True}, {{-11, -17}, True}, {{20, 23}, True}, {{4, 1}, 
+                    True}, {{-2, -5}, True}, {{13, 10}, True}, {{7, 12}, 
+                    True}, {{9, 5}, True}, {{-3, -9}, True}, {{8, 12}, 
+                    True}, {{6, 4}, True}, {{20, 21}, False}, {{-24, -25}, 
+                    True}, {{-20, -17}, True}, {{-14, -15}, True}, {{-3, -1}, 
+                    True}, {{-9, -11}, True}, {{-15, -13}, True}, {{-5, 0}, 
+                    True}, {{-23, -20}, True}, {{0, -1}, True}, {{7, 10}, 
+                    True}, {{8, 2}, True}, {{16, 13}, True}, {{-16, -14}, 
+                    True}, {{-2, -4}, True}, {{-20, -16}, True}, {{-4, -8}, 
+                    True}, {{2, 3}, True}, {{8, 5}, True}, {{11, 10}, 
+                    True}, {{8, 9}, True}, {{-21, -26}, True}, {{17, 16}, 
+                    False}, {{17, 19}, True}, {{13, 15}, True}, {{12, 15}, 
+                    True}, {{17, 11}, True}, {{-14, -11}, True}, {{4, 9}, 
+                    True}, {{-3, 1}, True}, {{1, 5}, True}, {{17, 16}, 
+                    True}, {{-17, -16}, True}, {{9, 6}, True}, {{15, 18}, 
+                    True}, {{7, 11}, True}, {{-22, -23}, True}, {{-15, -19}, 
+                    True}, {{-2, -3}, True}, {{-20, -23}, True}, {{0, -5}, 
+                    True}, {{-14, -12}, True}, {{9, 13}, True}, {{19, 13}, 
+                    True}, {{-20, -19}, True}, {{12, 9}, True}, {{-1, 1}, 
+                    True}, {{5, 6}, True}, {{-24, -23}, True}, {{22, 23}, 
+                    True}, {{24, 25}, True}, {{-8, -9}, True}, {{-10, -11}, 
+                    True}, {{-22, -19}, True}, {{5, 11}, True}, {{-10, -4}, 
+                    True}, {{-2, 0}, True}, {{3, 2}, True}, {{-14, -10}, 
+                    True}, {{-15, -11}, True}, {{-5, -7}, False}, {{-2, 2}, 
+                    True}, {{-19, -23}, True}, {{-11, -14}, True}, {{2, 3}, 
+                    True}, {{8, 3}, True}, {{-6, -9}, True}, {{14, 12}, 
+                    True}, {{-3, -7}, True}, {{4, 3}, True}, {{-5, -11}, 
+                    True}, {{8, 7}, True}, {{-14, -18}, True}, {{-16, -18}, 
+                    False}, {{17, 15}, True}}}}, {
+                   DateObject[{2018, 10, 14}, 
+                    TimeObject[{11, 18, 54.770735}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                   2, {{{2, 0}, True}, {{-7, -4}, True}, {{-17, -22}, 
+                    True}, {{8, 10}, True}, {{-17, -16}, True}, {{7, 9}, 
+                    True}, {{10, 9}, True}, {{-21, -19}, True}, {{-16, -13}, 
+                    True}, {{23, 19}, True}, {{9, 7}, True}, {{15, 11}, 
+                    True}, {{13, 11}, True}, {{-21, -19}, True}, {{3, 4}, 
+                    True}, {{13, 8}, True}, {{19, 14}, True}, {{-9, -5}, 
+                    True}, {{1, 0}, True}, {{23, 24}, True}, {{4, -2}, 
+                    True}, {{22, 28}, True}, {{6, 10}, True}, {{-11, -5}, 
+                    True}, {{-16, -14}, True}, {{0, -1}, True}, {{-1, -2}, 
+                    True}, {{-1, -6}, True}, {{5, 4}, True}, {{12, 15}, 
+                    True}, {{-23, -22}, True}, {{-15, -14}, True}, {{-6, -4}, 
+                    True}, {{-7, -8}, True}, {{20, 21}, True}, {{0, -2}, 
+                    True}, {{6, 7}, True}, {{-22, -19}, True}, {{-14, -16}, 
+                    True}, {{-17, -18}, False}, {{-17, -15}, True}, {{12, 13},
+                     True}, {{-9, -4}, True}, {{-9, -8}, False}, {{19, 23}, 
+                    True}, {{21, 18}, False}, {{22, 19}, True}, {{-23, -19}, 
+                    True}, {{-17, -13}, True}, {{-3, -4}, True}, {{5, 10}, 
+                    True}, {{-14, -11}, True}, {{-7, -5}, True}, {{12, 13}, 
+                    True}, {{13, 9}, True}, {{13, 14}, True}, {{-7, -5}, 
+                    True}, {{9, 15}, True}, {{24, 26}, True}, {{-11, -14}, 
+                    True}, {{1, 0}, False}, {{-2, -7}, True}, {{22, 24}, 
+                    True}, {{-23, -21}, True}, {{-8, -10}, False}, {{16, 20}, 
+                    True}, {{-17, -13}, True}, {{-16, -22}, True}, {{18, 22}, 
+                    True}, {{-6, -4}, True}, {{-10, -14}, True}, {{-15, -18}, 
+                    True}, {{-23, -18}, True}, {{5, 4}, True}, {{-6, -11}, 
+                    True}, {{-14, -9}, True}, {{-21, -20}, 
+                    False}, {{-17, -13}, True}, {{-14, -13}, True}, {{12, 11},
+                     False}, {{-9, -11}, True}, {{-13, -11}, True}, {{18, 21},
+                     True}, {{9, 8}, True}, {{-10, -14}, True}, {{14, 12}, 
+                    False}, {{-21, -23}, True}, {{-5, -1}, True}, {{14, 11}, 
+                    True}, {{12, 13}, True}, {{15, 13}, True}, {{-19, -17}, 
+                    True}, {{7, 9}, True}, {{-23, -26}, True}, {{-23, -26}, 
+                    True}, {{-9, -13}, True}, {{-16, -13}, True}, {{18, 20}, 
+                    True}, {{-3, -2}, False}, {{-22, -23}, True}}}}, {
+                   DateObject[{2018, 10, 15}, 
+                    TimeObject[{11, 29, 57.959642}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                   3, {{{-2, -5}, True}, {{-14, -13}, True}, {{-13, -19}, 
+                    True}, {{4, 8}, True}, {{4, -1}, True}, {{14, 13}, 
+                    True}, {{22, 24}, True}, {{8, 9}, True}, {{-18, -21}, 
+                    True}, {{-13, -16}, True}, {{-21, -26}, 
+                    True}, {{-15, -10}, True}, {{3, 1}, True}, {{-5, 1}, 
+                    True}, {{-10, -13}, True}, {{-24, -28}, 
+                    True}, {{-24, -25}, False}, {{-7, -6}, True}, {{4, 0}, 
+                    True}, {{1, -3}, True}, {{-23, -29}, True}, {{11, 13}, 
+                    True}, {{17, 16}, True}, {{18, 24}, True}, {{-20, -22}, 
+                    True}, {{4, -1}, True}, {{24, 18}, True}, {{-2, 1}, 
+                    True}, {{-19, -18}, True}, {{-7, -4}, True}, {{-16, -18}, 
+                    True}, {{7, 11}, True}, {{18, 15}, True}, {{-17, -15}, 
+                    True}, {{2, 3}, True}, {{-15, -18}, True}, {{-15, -19}, 
+                    True}, {{2, 0}, True}, {{-15, -17}, True}, {{22, 23}, 
+                    True}, {{-23, -24}, True}, {{-15, -14}, True}, {{-2, -5}, 
+                    True}, {{2, 0}, True}, {{11, 9}, True}, {{-24, -21}, 
+                    True}, {{-17, -20}, True}, {{-4, -9}, True}, {{14, 19}, 
+                    True}, {{6, 4}, True}, {{1, -4}, True}, {{19, 22}, 
+                    True}, {{-13, -9}, True}, {{16, 15}, False}, {{-2, 1}, 
+                    True}, {{0, 2}, True}, {{-13, -16}, True}, {{-12, -11}, 
+                    False}, {{11, 10}, True}, {{1, -1}, True}, {{-1, -5}, 
+                    True}, {{22, 19}, True}, {{22, 20}, True}, {{-2, 0}, 
+                    True}, {{19, 18}, True}, {{-19, -14}, True}, {{24, 25}, 
+                    True}, {{-2, -6}, True}, {{-12, -13}, True}, {{-21, -20}, 
+                    True}, {{1, -5}, True}, {{15, 11}, True}, {{0, 2}, 
+                    True}, {{19, 14}, True}, {{14, 16}, True}, {{-10, -16}, 
+                    True}, {{-24, -28}, True}, {{5, 6}, True}, {{-21, -17}, 
+                    True}, {{-7, -9}, True}, {{4, 8}, True}, {{17, 16}, 
+                    True}, {{-17, -20}, True}, {{-7, -11}, True}, {{-10, -11},
+                     True}, {{-19, -20}, True}, {{-18, -15}, True}, {{-2, -5},
+                     True}, {{-18, -12}, True}, {{6, 3}, True}, {{11, 17}, 
+                    True}, {{-6, -8}, True}, {{-11, -13}, True}, {{-10, -13}, 
+                    True}, {{12, 16}, True}, {{20, 22}, True}, {{10, 8}, 
+                    True}, {{-4, -7}, True}, {{12, 17}, True}, {{20, 15}, 
+                    True}}}}, {
+                   DateObject[{2018, 10, 16}, 
+                    TimeObject[{10, 45, 24.794594}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                   4, {{{11, 7}, True}, {{-15, -14}, True}, {{15, 17}, 
+                    True}, {{-17, -15}, True}, {{-16, -18}, True}, {{-5, -4}, 
+                    True}, {{-1, -2}, True}, {{-12, -13}, True}, {{-3, -6}, 
+                    True}, {{-16, -19}, True}, {{18, 15}, True}, {{12, 13}, 
+                    True}, {{-9, -13}, True}, {{-16, -17}, True}, {{-1, -3}, 
+                    True}, {{14, 15}, True}, {{17, 19}, True}, {{3, 5}, 
+                    True}, {{18, 21}, True}, {{-16, -20}, True}, {{0, -5}, 
+                    True}, {{9, 11}, True}, {{4, 2}, True}, {{5, 0}, True}, {{
+                    15, 18}, True}, {{-24, -20}, True}, {{-16, -14}, True}, {{
+                    12, 14}, True}, {{17, 12}, True}, {{-2, 0}, True}, {{12, 
+                    15}, True}, {{13, 10}, True}, {{-9, -11}, True}, {{16, 
+                    10}, True}, {{-24, -21}, True}, {{-19, -17}, True}, {{
+                    1, -2}, True}, {{-16, -19}, True}, {{-8, -9}, True}, {{6, 
+                    3}, True}, {{6, 3}, True}, {{-7, -10}, True}, {{-6, 0}, 
+                    True}, {{1, 0}, True}, {{-1, 2}, True}, {{8, 12}, 
+                    True}, {{-8, -9}, True}, {{-9, -10}, True}, {{-19, -20}, 
+                    True}, {{7, 6}, True}, {{19, 18}, True}, {{0, -5}, 
+                    True}, {{-24, -19}, True}, {{21, 20}, True}, {{-13, -11}, 
+                    True}, {{-16, -15}, False}, {{3, 4}, True}, {{-20, -19}, 
+                    True}, {{-20, -22}, True}, {{-19, -23}, True}, {{17, 13}, 
+                    True}, {{4, 3}, True}, {{21, 27}, True}, {{-4, -2}, 
+                    True}, {{-7, -6}, False}, {{-16, -17}, True}, {{-1, 2}, 
+                    True}, {{-22, -21}, False}, {{15, 10}, True}, {{-18, -17},
+                     True}, {{-4, -1}, False}, {{-10, -11}, True}, {{-10, -9},
+                     True}, {{12, 13}, True}, {{-18, -22}, True}, {{18, 15}, 
+                    True}, {{-15, -17}, True}, {{16, 18}, True}, {{-4, -1}, 
+                    True}, {{-8, -6}, True}, {{-24, -25}, True}, {{-15, -13}, 
+                    True}, {{13, 12}, True}, {{20, 19}, True}, {{18, 20}, 
+                    True}, {{10, 12}, True}, {{9, 11}, True}, {{-10, -13}, 
+                    True}, {{0, 1}, True}, {{8, 11}, True}, {{-3, 3}, 
+                    True}, {{-8, -6}, True}, {{-24, -19}, True}, {{-6, -5}, 
+                    True}, {{23, 25}, True}, {{14, 11}, True}, {{21, 20}, 
+                    False}, {{15, 18}, True}, {{16, 18}, True}, {{-13, -15}, 
+                    True}}}}}]; EmitSound[
+                
+                Part[$CellContext`raw$9043, 
+                 1]]; $CellContext`e1$9044 = ($CellContext`e2$9044 = 
+                True); $CellContext`enext$9044 = 
+               False; $CellContext`name1$9044 = "1"; $CellContext`name2$9044 = 
+               "2"), Enabled -> Dynamic[$CellContext`enext$9044], Appearance -> 
+             Automatic, Evaluator -> Automatic, Method -> "Preemptive"]}}, 
+          RowSpacings -> 1, ColumnSpacings -> 3, RowAlignments -> Center, 
+          ColumnAlignments -> Center], 
+         Function[BoxForm`e$, 
+          TableForm[BoxForm`e$, TableAlignments -> Center]]]}, {
+        TagBox[
+         DynamicBox[
+          ToBoxes[
+           StringTemplate[
+           "\:6b63\:786e:``, \:9519\:8bef:``, \:767e\:5206\:6bd4: ``%"][
+            Count[$CellContext`truefalse$9044, True], 
+            Count[$CellContext`truefalse$9044, False], 
+            100 (Count[$CellContext`truefalse$9044, True]/If[
+             Length[$CellContext`truefalse$9044] > 0, 
+              Length[$CellContext`truefalse$9044], 1])], StandardForm]], 
+         Function[BoxForm`e$, 
+          TableForm[BoxForm`e$]]]}}, RowAlignments -> Baseline, 
+      ColumnAlignments -> Center, RowSpacings -> 1, ColumnSpacings -> 3], 
+     TableForm[{{
+        Button["\:91cd\:65b0\:64ad\:653e", EmitSound[
+           Part[$CellContext`raw$9043, 1]]; 
+         If[$CellContext`enext$9044 == False, 
+           Increment[$CellContext`repeat$9044]]]}, {
+        TableForm[{{
+           Button[
+           "\:5bfc\:51fa", {
+             4, {{{11, 7}, True}, {{-15, -14}, True}, {{15, 17}, 
+                True}, {{-17, -15}, True}, {{-16, -18}, True}, {{-5, -4}, 
+                True}, {{-1, -2}, True}, {{-12, -13}, True}, {{-3, -6}, 
+                True}, {{-16, -19}, True}, {{18, 15}, True}, {{12, 13}, 
+                True}, {{-9, -13}, True}, {{-16, -17}, True}, {{-1, -3}, 
+                True}, {{14, 15}, True}, {{17, 19}, True}, {{3, 5}, True}, {{
+                18, 21}, True}, {{-16, -20}, True}, {{0, -5}, True}, {{9, 11},
+                 True}, {{4, 2}, True}, {{5, 0}, True}, {{15, 18}, 
+                True}, {{-24, -20}, True}, {{-16, -14}, True}, {{12, 14}, 
+                True}, {{17, 12}, True}, {{-2, 0}, True}, {{12, 15}, True}, {{
+                13, 10}, True}, {{-9, -11}, True}, {{16, 10}, 
+                True}, {{-24, -21}, True}, {{-19, -17}, True}, {{1, -2}, 
+                True}, {{-16, -19}, True}, {{-8, -9}, True}, {{6, 3}, 
+                True}, {{6, 3}, True}, {{-7, -10}, True}, {{-6, 0}, True}, {{
+                1, 0}, True}, {{-1, 2}, True}, {{8, 12}, True}, {{-8, -9}, 
+                True}, {{-9, -10}, True}, {{-19, -20}, True}, {{7, 6}, 
+                True}, {{19, 18}, True}, {{0, -5}, True}, {{-24, -19}, 
+                True}, {{21, 20}, True}, {{-13, -11}, True}, {{-16, -15}, 
+                False}, {{3, 4}, True}, {{-20, -19}, True}, {{-20, -22}, 
+                True}, {{-19, -23}, True}, {{17, 13}, True}, {{4, 3}, 
+                True}, {{21, 27}, True}, {{-4, -2}, True}, {{-7, -6}, 
+                False}, {{-16, -17}, True}, {{-1, 2}, True}, {{-22, -21}, 
+                False}, {{15, 10}, True}, {{-18, -17}, True}, {{-4, -1}, 
+                False}, {{-10, -11}, True}, {{-10, -9}, True}, {{12, 13}, 
+                True}, {{-18, -22}, True}, {{18, 15}, True}, {{-15, -17}, 
+                True}, {{16, 18}, True}, {{-4, -1}, True}, {{-8, -6}, 
+                True}, {{-24, -25}, True}, {{-15, -13}, True}, {{13, 12}, 
+                True}, {{20, 19}, True}, {{18, 20}, True}, {{10, 12}, 
+                True}, {{9, 11}, True}, {{-10, -13}, True}, {{0, 1}, True}, {{
+                8, 11}, True}, {{-3, 3}, True}, {{-8, -6}, True}, {{-24, -19},
+                 True}, {{-6, -5}, True}, {{23, 25}, True}, {{14, 11}, 
+                True}, {{21, 20}, False}, {{15, 18}, True}, {{16, 18}, 
+                True}, {{-13, -15}, True}}} = {$CellContext`repeat$9044, 
+              
+              Transpose[{$CellContext`questions$9044, \
+$CellContext`truefalse$9044}]}], 
+           Button[
+            Dynamic[$CellContext`name1$9044], 
+            AppendTo[$CellContext`questions$9044, 
+              Part[$CellContext`raw$9043, 2]]; 
+            AppendTo[$CellContext`truefalse$9044, 
+              Part[$CellContext`raw$9043, 2, 1] > 
+              Part[$CellContext`raw$9043, 2, 2]]; If[
+              
+              Part[$CellContext`truefalse$9044, -1], $CellContext`raw$9043 = \
+$CellContext`TwoPitchReTrain["data", {{
+                   DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{13, 25, 25.97506`8.167131541751818}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                   31, {{{-6, -4}, True}, {{15, 19}, True}, {{10, 9}, 
+                    True}, {{-4, -9}, True}, {{9, 8}, False}, {{9, 7}, 
+                    False}, {{5, 9}, True}, {{5, 3}, True}, {{-17, -14}, 
+                    True}, {{-21, -19}, True}, {{-18, -22}, True}, {{18, 21}, 
+                    True}, {{-6, -10}, True}, {{-19, -17}, True}, {{-4, -1}, 
+                    True}, {{6, 4}, True}, {{-24, -22}, True}, {{-5, 0}, 
+                    True}, {{6, 5}, True}, {{21, 18}, True}, {{20, 19}, 
+                    True}, {{-1, 1}, True}, {{16, 13}, True}, {{-13, -15}, 
+                    True}, {{5, 4}, True}, {{-1, -3}, True}, {{2, -1}, 
+                    True}, {{11, 9}, True}, {{22, 19}, True}, {{-3, -6}, 
+                    True}, {{19, 21}, True}, {{15, 20}, True}, {{21, 27}, 
+                    True}, {{22, 16}, True}, {{-13, -16}, True}, {{-21, -17}, 
+                    True}, {{-3, -4}, True}, {{-7, -6}, True}, {{3, 0}, 
+                    True}, {{-12, -15}, True}, {{-12, -9}, True}, {{9, 11}, 
+                    True}, {{-11, -15}, True}, {{-2, -3}, True}, {{0, -4}, 
+                    True}, {{-15, -11}, True}, {{-10, -6}, True}, {{0, 5}, 
+                    True}, {{3, 1}, True}, {{0, 3}, True}, {{16, 19}, 
+                    True}, {{-4, -1}, True}, {{-2, -5}, True}, {{4, -2}, 
+                    True}, {{6, 7}, True}, {{-1, 1}, True}, {{-14, -8}, 
+                    True}, {{16, 18}, True}, {{21, 20}, True}, {{3, 7}, 
+                    True}, {{3, 5}, False}, {{16, 17}, True}, {{24, 18}, 
+                    True}, {{5, 9}, True}, {{4, -1}, True}, {{23, 25}, 
+                    True}, {{-6, -4}, True}, {{2, 4}, True}, {{13, 14}, 
+                    True}, {{-17, -12}, True}, {{-16, -18}, True}, {{10, 9}, 
+                    False}, {{11, 15}, True}, {{22, 21}, True}, {{-3, -2}, 
+                    False}, {{-20, -21}, True}, {{-21, -19}, True}, {{21, 23},
+                     True}, {{-24, -23}, True}, {{-13, -17}, 
+                    True}, {{-16, -22}, True}, {{22, 20}, True}, {{8, 11}, 
+                    True}, {{4, 8}, True}, {{10, 9}, True}, {{-2, 0}, 
+                    True}, {{9, 13}, True}, {{-19, -23}, True}, {{-8, -10}, 
+                    False}, {{0, -3}, True}, {{-6, 0}, True}, {{16, 19}, 
+                    True}, {{8, 12}, True}, {{-4, 1}, True}, {{23, 25}, 
+                    True}, {{-21, -26}, True}, {{13, 10}, False}, {{-20, -23},
+                     True}, {{13, 16}, True}, {{14, 18}, True}}}}, {
+                   DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{17, 43, 6.547292`7.56863669779946}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                   11, {{{16, 15}, True}, {{-13, -17}, True}, {{-16, -15}, 
+                    True}, {{6, 3}, True}, {{18, 19}, True}, {{13, 16}, 
+                    True}, {{-22, -26}, True}, {{-4, -5}, True}, {{20, 16}, 
+                    True}, {{19, 18}, False}, {{-23, -20}, True}, {{13, 19}, 
+                    True}, {{-13, -12}, True}, {{-19, -21}, 
+                    True}, {{-22, -28}, True}, {{22, 26}, True}, {{3, -2}, 
+                    True}, {{-1, 0}, True}, {{14, 18}, True}, {{-8, -12}, 
+                    True}, {{4, 0}, True}, {{-24, -22}, True}, {{-19, -13}, 
+                    True}, {{9, 15}, True}, {{18, 16}, True}, {{2, 4}, 
+                    True}, {{-9, -10}, True}, {{7, 9}, True}, {{-1, 3}, 
+                    True}, {{22, 24}, True}, {{13, 16}, True}, {{-20, -16}, 
+                    True}, {{21, 26}, True}, {{-19, -13}, True}, {{-3, -4}, 
+                    True}, {{24, 27}, True}, {{19, 18}, True}, {{-8, -6}, 
+                    True}, {{13, 14}, False}, {{24, 22}, True}, {{-20, -22}, 
+                    True}, {{-6, -9}, True}, {{1, 0}, True}, {{5, 4}, 
+                    True}, {{-19, -20}, True}, {{12, 10}, False}, {{-2, -7}, 
+                    True}, {{22, 25}, True}, {{-18, -17}, True}, {{-6, -10}, 
+                    True}, {{-2, -6}, True}, {{15, 17}, True}, {{8, 9}, 
+                    True}, {{21, 22}, True}, {{-1, 2}, True}, {{22, 17}, 
+                    True}, {{-7, -3}, True}, {{11, 7}, True}, {{4, 1}, 
+                    True}, {{-19, -21}, True}, {{19, 18}, True}, {{-15, -18}, 
+                    True}, {{14, 20}, True}, {{20, 15}, True}, {{-9, -7}, 
+                    True}, {{9, 14}, True}, {{14, 16}, True}, {{7, 6}, 
+                    True}, {{3, 1}, False}, {{-20, -25}, True}, {{14, 13}, 
+                    True}, {{-21, -18}, True}, {{5, 2}, True}, {{-10, -9}, 
+                    False}, {{-17, -18}, True}, {{-5, -1}, True}, {{6, 5}, 
+                    True}, {{-17, -14}, True}, {{-21, -27}, 
+                    True}, {{-24, -29}, True}, {{-20, -18}, True}, {{6, 8}, 
+                    True}, {{17, 14}, True}, {{-24, -25}, True}, {{5, 9}, 
+                    True}, {{-10, -9}, True}, {{5, 1}, True}, {{-3, -6}, 
+                    True}, {{11, 10}, True}, {{14, 15}, True}, {{-23, -25}, 
+                    True}, {{-18, -17}, True}, {{2, 0}, True}, {{15, 12}, 
+                    False}, {{4, 10}, True}, {{11, 14}, True}, {{-8, -11}, 
+                    True}, {{-18, -16}, True}, {{-24, -23}, 
+                    True}, {{-19, -23}, True}}}}, {
+                   DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{21, 11, 41.209715`8.36757458899875}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                   11, {{{-5, -10}, True}, {{22, 20}, True}, {{-8, -2}, 
+                    True}, {{-10, -11}, True}, {{19, 23}, True}, {{17, 16}, 
+                    True}, {{-18, -13}, True}, {{3, 4}, False}, {{11, 16}, 
+                    True}, {{22, 21}, True}, {{-23, -20}, True}, {{-2, -3}, 
+                    True}, {{-17, -16}, True}, {{-15, -14}, True}, {{11, 12}, 
+                    True}, {{-11, -17}, True}, {{20, 23}, True}, {{4, 1}, 
+                    True}, {{-2, -5}, True}, {{13, 10}, True}, {{7, 12}, 
+                    True}, {{9, 5}, True}, {{-3, -9}, True}, {{8, 12}, 
+                    True}, {{6, 4}, True}, {{20, 21}, False}, {{-24, -25}, 
+                    True}, {{-20, -17}, True}, {{-14, -15}, True}, {{-3, -1}, 
+                    True}, {{-9, -11}, True}, {{-15, -13}, True}, {{-5, 0}, 
+                    True}, {{-23, -20}, True}, {{0, -1}, True}, {{7, 10}, 
+                    True}, {{8, 2}, True}, {{16, 13}, True}, {{-16, -14}, 
+                    True}, {{-2, -4}, True}, {{-20, -16}, True}, {{-4, -8}, 
+                    True}, {{2, 3}, True}, {{8, 5}, True}, {{11, 10}, 
+                    True}, {{8, 9}, True}, {{-21, -26}, True}, {{17, 16}, 
+                    False}, {{17, 19}, True}, {{13, 15}, True}, {{12, 15}, 
+                    True}, {{17, 11}, True}, {{-14, -11}, True}, {{4, 9}, 
+                    True}, {{-3, 1}, True}, {{1, 5}, True}, {{17, 16}, 
+                    True}, {{-17, -16}, True}, {{9, 6}, True}, {{15, 18}, 
+                    True}, {{7, 11}, True}, {{-22, -23}, True}, {{-15, -19}, 
+                    True}, {{-2, -3}, True}, {{-20, -23}, True}, {{0, -5}, 
+                    True}, {{-14, -12}, True}, {{9, 13}, True}, {{19, 13}, 
+                    True}, {{-20, -19}, True}, {{12, 9}, True}, {{-1, 1}, 
+                    True}, {{5, 6}, True}, {{-24, -23}, True}, {{22, 23}, 
+                    True}, {{24, 25}, True}, {{-8, -9}, True}, {{-10, -11}, 
+                    True}, {{-22, -19}, True}, {{5, 11}, True}, {{-10, -4}, 
+                    True}, {{-2, 0}, True}, {{3, 2}, True}, {{-14, -10}, 
+                    True}, {{-15, -11}, True}, {{-5, -7}, False}, {{-2, 2}, 
+                    True}, {{-19, -23}, True}, {{-11, -14}, True}, {{2, 3}, 
+                    True}, {{8, 3}, True}, {{-6, -9}, True}, {{14, 12}, 
+                    True}, {{-3, -7}, True}, {{4, 3}, True}, {{-5, -11}, 
+                    True}, {{8, 7}, True}, {{-14, -18}, True}, {{-16, -18}, 
+                    False}, {{17, 15}, True}}}}, {
+                   DateObject[{2018, 10, 14}, 
+                    TimeObject[{11, 18, 54.770735}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                   2, {{{2, 0}, True}, {{-7, -4}, True}, {{-17, -22}, 
+                    True}, {{8, 10}, True}, {{-17, -16}, True}, {{7, 9}, 
+                    True}, {{10, 9}, True}, {{-21, -19}, True}, {{-16, -13}, 
+                    True}, {{23, 19}, True}, {{9, 7}, True}, {{15, 11}, 
+                    True}, {{13, 11}, True}, {{-21, -19}, True}, {{3, 4}, 
+                    True}, {{13, 8}, True}, {{19, 14}, True}, {{-9, -5}, 
+                    True}, {{1, 0}, True}, {{23, 24}, True}, {{4, -2}, 
+                    True}, {{22, 28}, True}, {{6, 10}, True}, {{-11, -5}, 
+                    True}, {{-16, -14}, True}, {{0, -1}, True}, {{-1, -2}, 
+                    True}, {{-1, -6}, True}, {{5, 4}, True}, {{12, 15}, 
+                    True}, {{-23, -22}, True}, {{-15, -14}, True}, {{-6, -4}, 
+                    True}, {{-7, -8}, True}, {{20, 21}, True}, {{0, -2}, 
+                    True}, {{6, 7}, True}, {{-22, -19}, True}, {{-14, -16}, 
+                    True}, {{-17, -18}, False}, {{-17, -15}, True}, {{12, 13},
+                     True}, {{-9, -4}, True}, {{-9, -8}, False}, {{19, 23}, 
+                    True}, {{21, 18}, False}, {{22, 19}, True}, {{-23, -19}, 
+                    True}, {{-17, -13}, True}, {{-3, -4}, True}, {{5, 10}, 
+                    True}, {{-14, -11}, True}, {{-7, -5}, True}, {{12, 13}, 
+                    True}, {{13, 9}, True}, {{13, 14}, True}, {{-7, -5}, 
+                    True}, {{9, 15}, True}, {{24, 26}, True}, {{-11, -14}, 
+                    True}, {{1, 0}, False}, {{-2, -7}, True}, {{22, 24}, 
+                    True}, {{-23, -21}, True}, {{-8, -10}, False}, {{16, 20}, 
+                    True}, {{-17, -13}, True}, {{-16, -22}, True}, {{18, 22}, 
+                    True}, {{-6, -4}, True}, {{-10, -14}, True}, {{-15, -18}, 
+                    True}, {{-23, -18}, True}, {{5, 4}, True}, {{-6, -11}, 
+                    True}, {{-14, -9}, True}, {{-21, -20}, 
+                    False}, {{-17, -13}, True}, {{-14, -13}, True}, {{12, 11},
+                     False}, {{-9, -11}, True}, {{-13, -11}, True}, {{18, 21},
+                     True}, {{9, 8}, True}, {{-10, -14}, True}, {{14, 12}, 
+                    False}, {{-21, -23}, True}, {{-5, -1}, True}, {{14, 11}, 
+                    True}, {{12, 13}, True}, {{15, 13}, True}, {{-19, -17}, 
+                    True}, {{7, 9}, True}, {{-23, -26}, True}, {{-23, -26}, 
+                    True}, {{-9, -13}, True}, {{-16, -13}, True}, {{18, 20}, 
+                    True}, {{-3, -2}, False}, {{-22, -23}, True}}}}, {
+                   DateObject[{2018, 10, 15}, 
+                    TimeObject[{11, 29, 57.959642}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                   3, {{{-2, -5}, True}, {{-14, -13}, True}, {{-13, -19}, 
+                    True}, {{4, 8}, True}, {{4, -1}, True}, {{14, 13}, 
+                    True}, {{22, 24}, True}, {{8, 9}, True}, {{-18, -21}, 
+                    True}, {{-13, -16}, True}, {{-21, -26}, 
+                    True}, {{-15, -10}, True}, {{3, 1}, True}, {{-5, 1}, 
+                    True}, {{-10, -13}, True}, {{-24, -28}, 
+                    True}, {{-24, -25}, False}, {{-7, -6}, True}, {{4, 0}, 
+                    True}, {{1, -3}, True}, {{-23, -29}, True}, {{11, 13}, 
+                    True}, {{17, 16}, True}, {{18, 24}, True}, {{-20, -22}, 
+                    True}, {{4, -1}, True}, {{24, 18}, True}, {{-2, 1}, 
+                    True}, {{-19, -18}, True}, {{-7, -4}, True}, {{-16, -18}, 
+                    True}, {{7, 11}, True}, {{18, 15}, True}, {{-17, -15}, 
+                    True}, {{2, 3}, True}, {{-15, -18}, True}, {{-15, -19}, 
+                    True}, {{2, 0}, True}, {{-15, -17}, True}, {{22, 23}, 
+                    True}, {{-23, -24}, True}, {{-15, -14}, True}, {{-2, -5}, 
+                    True}, {{2, 0}, True}, {{11, 9}, True}, {{-24, -21}, 
+                    True}, {{-17, -20}, True}, {{-4, -9}, True}, {{14, 19}, 
+                    True}, {{6, 4}, True}, {{1, -4}, True}, {{19, 22}, 
+                    True}, {{-13, -9}, True}, {{16, 15}, False}, {{-2, 1}, 
+                    True}, {{0, 2}, True}, {{-13, -16}, True}, {{-12, -11}, 
+                    False}, {{11, 10}, True}, {{1, -1}, True}, {{-1, -5}, 
+                    True}, {{22, 19}, True}, {{22, 20}, True}, {{-2, 0}, 
+                    True}, {{19, 18}, True}, {{-19, -14}, True}, {{24, 25}, 
+                    True}, {{-2, -6}, True}, {{-12, -13}, True}, {{-21, -20}, 
+                    True}, {{1, -5}, True}, {{15, 11}, True}, {{0, 2}, 
+                    True}, {{19, 14}, True}, {{14, 16}, True}, {{-10, -16}, 
+                    True}, {{-24, -28}, True}, {{5, 6}, True}, {{-21, -17}, 
+                    True}, {{-7, -9}, True}, {{4, 8}, True}, {{17, 16}, 
+                    True}, {{-17, -20}, True}, {{-7, -11}, True}, {{-10, -11},
+                     True}, {{-19, -20}, True}, {{-18, -15}, True}, {{-2, -5},
+                     True}, {{-18, -12}, True}, {{6, 3}, True}, {{11, 17}, 
+                    True}, {{-6, -8}, True}, {{-11, -13}, True}, {{-10, -13}, 
+                    True}, {{12, 16}, True}, {{20, 22}, True}, {{10, 8}, 
+                    True}, {{-4, -7}, True}, {{12, 17}, True}, {{20, 15}, 
+                    True}}}}, {
+                   DateObject[{2018, 10, 16}, 
+                    TimeObject[{10, 45, 24.794594}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                   4, {{{11, 7}, True}, {{-15, -14}, True}, {{15, 17}, 
+                    True}, {{-17, -15}, True}, {{-16, -18}, True}, {{-5, -4}, 
+                    True}, {{-1, -2}, True}, {{-12, -13}, True}, {{-3, -6}, 
+                    True}, {{-16, -19}, True}, {{18, 15}, True}, {{12, 13}, 
+                    True}, {{-9, -13}, True}, {{-16, -17}, True}, {{-1, -3}, 
+                    True}, {{14, 15}, True}, {{17, 19}, True}, {{3, 5}, 
+                    True}, {{18, 21}, True}, {{-16, -20}, True}, {{0, -5}, 
+                    True}, {{9, 11}, True}, {{4, 2}, True}, {{5, 0}, True}, {{
+                    15, 18}, True}, {{-24, -20}, True}, {{-16, -14}, True}, {{
+                    12, 14}, True}, {{17, 12}, True}, {{-2, 0}, True}, {{12, 
+                    15}, True}, {{13, 10}, True}, {{-9, -11}, True}, {{16, 
+                    10}, True}, {{-24, -21}, True}, {{-19, -17}, True}, {{
+                    1, -2}, True}, {{-16, -19}, True}, {{-8, -9}, True}, {{6, 
+                    3}, True}, {{6, 3}, True}, {{-7, -10}, True}, {{-6, 0}, 
+                    True}, {{1, 0}, True}, {{-1, 2}, True}, {{8, 12}, 
+                    True}, {{-8, -9}, True}, {{-9, -10}, True}, {{-19, -20}, 
+                    True}, {{7, 6}, True}, {{19, 18}, True}, {{0, -5}, 
+                    True}, {{-24, -19}, True}, {{21, 20}, True}, {{-13, -11}, 
+                    True}, {{-16, -15}, False}, {{3, 4}, True}, {{-20, -19}, 
+                    True}, {{-20, -22}, True}, {{-19, -23}, True}, {{17, 13}, 
+                    True}, {{4, 3}, True}, {{21, 27}, True}, {{-4, -2}, 
+                    True}, {{-7, -6}, False}, {{-16, -17}, True}, {{-1, 2}, 
+                    True}, {{-22, -21}, False}, {{15, 10}, True}, {{-18, -17},
+                     True}, {{-4, -1}, False}, {{-10, -11}, True}, {{-10, -9},
+                     True}, {{12, 13}, True}, {{-18, -22}, True}, {{18, 15}, 
+                    True}, {{-15, -17}, True}, {{16, 18}, True}, {{-4, -1}, 
+                    True}, {{-8, -6}, True}, {{-24, -25}, True}, {{-15, -13}, 
+                    True}, {{13, 12}, True}, {{20, 19}, True}, {{18, 20}, 
+                    True}, {{10, 12}, True}, {{9, 11}, True}, {{-10, -13}, 
+                    True}, {{0, 1}, True}, {{8, 11}, True}, {{-3, 3}, 
+                    True}, {{-8, -6}, True}, {{-24, -19}, True}, {{-6, -5}, 
+                    True}, {{23, 25}, True}, {{14, 11}, True}, {{21, 20}, 
+                    False}, {{15, 18}, True}, {{16, 18}, True}, {{-13, -15}, 
+                    True}}}}}]; EmitSound[
+                Part[$CellContext`raw$9043, 1]]; $CellContext`enext$9044 = 
+               False, $CellContext`enext$9044 = 
+               True; $CellContext`e1$9044 = ($CellContext`e2$9044 = 
+                False); $CellContext`name2$9044 = "[2]"], Enabled -> 
+            Dynamic[$CellContext`e1$9044]], 
+           Button[
+            Dynamic[$CellContext`name2$9044], 
+            AppendTo[$CellContext`questions$9044, 
+              Part[$CellContext`raw$9043, 2]]; 
+            AppendTo[$CellContext`truefalse$9044, 
+              Part[$CellContext`raw$9043, 2, 1] < 
+              Part[$CellContext`raw$9043, 2, 2]]; If[
+              
+              Part[$CellContext`truefalse$9044, -1], $CellContext`raw$9043 = \
+$CellContext`TwoPitchReTrain["data", {{
+                   DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{13, 25, 25.97506`8.167131541751818}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                   31, {{{-6, -4}, True}, {{15, 19}, True}, {{10, 9}, 
+                    True}, {{-4, -9}, True}, {{9, 8}, False}, {{9, 7}, 
+                    False}, {{5, 9}, True}, {{5, 3}, True}, {{-17, -14}, 
+                    True}, {{-21, -19}, True}, {{-18, -22}, True}, {{18, 21}, 
+                    True}, {{-6, -10}, True}, {{-19, -17}, True}, {{-4, -1}, 
+                    True}, {{6, 4}, True}, {{-24, -22}, True}, {{-5, 0}, 
+                    True}, {{6, 5}, True}, {{21, 18}, True}, {{20, 19}, 
+                    True}, {{-1, 1}, True}, {{16, 13}, True}, {{-13, -15}, 
+                    True}, {{5, 4}, True}, {{-1, -3}, True}, {{2, -1}, 
+                    True}, {{11, 9}, True}, {{22, 19}, True}, {{-3, -6}, 
+                    True}, {{19, 21}, True}, {{15, 20}, True}, {{21, 27}, 
+                    True}, {{22, 16}, True}, {{-13, -16}, True}, {{-21, -17}, 
+                    True}, {{-3, -4}, True}, {{-7, -6}, True}, {{3, 0}, 
+                    True}, {{-12, -15}, True}, {{-12, -9}, True}, {{9, 11}, 
+                    True}, {{-11, -15}, True}, {{-2, -3}, True}, {{0, -4}, 
+                    True}, {{-15, -11}, True}, {{-10, -6}, True}, {{0, 5}, 
+                    True}, {{3, 1}, True}, {{0, 3}, True}, {{16, 19}, 
+                    True}, {{-4, -1}, True}, {{-2, -5}, True}, {{4, -2}, 
+                    True}, {{6, 7}, True}, {{-1, 1}, True}, {{-14, -8}, 
+                    True}, {{16, 18}, True}, {{21, 20}, True}, {{3, 7}, 
+                    True}, {{3, 5}, False}, {{16, 17}, True}, {{24, 18}, 
+                    True}, {{5, 9}, True}, {{4, -1}, True}, {{23, 25}, 
+                    True}, {{-6, -4}, True}, {{2, 4}, True}, {{13, 14}, 
+                    True}, {{-17, -12}, True}, {{-16, -18}, True}, {{10, 9}, 
+                    False}, {{11, 15}, True}, {{22, 21}, True}, {{-3, -2}, 
+                    False}, {{-20, -21}, True}, {{-21, -19}, True}, {{21, 23},
+                     True}, {{-24, -23}, True}, {{-13, -17}, 
+                    True}, {{-16, -22}, True}, {{22, 20}, True}, {{8, 11}, 
+                    True}, {{4, 8}, True}, {{10, 9}, True}, {{-2, 0}, 
+                    True}, {{9, 13}, True}, {{-19, -23}, True}, {{-8, -10}, 
+                    False}, {{0, -3}, True}, {{-6, 0}, True}, {{16, 19}, 
+                    True}, {{8, 12}, True}, {{-4, 1}, True}, {{23, 25}, 
+                    True}, {{-21, -26}, True}, {{13, 10}, False}, {{-20, -23},
+                     True}, {{13, 16}, True}, {{14, 18}, True}}}}, {
+                   DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{17, 43, 6.547292`7.56863669779946}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                   11, {{{16, 15}, True}, {{-13, -17}, True}, {{-16, -15}, 
+                    True}, {{6, 3}, True}, {{18, 19}, True}, {{13, 16}, 
+                    True}, {{-22, -26}, True}, {{-4, -5}, True}, {{20, 16}, 
+                    True}, {{19, 18}, False}, {{-23, -20}, True}, {{13, 19}, 
+                    True}, {{-13, -12}, True}, {{-19, -21}, 
+                    True}, {{-22, -28}, True}, {{22, 26}, True}, {{3, -2}, 
+                    True}, {{-1, 0}, True}, {{14, 18}, True}, {{-8, -12}, 
+                    True}, {{4, 0}, True}, {{-24, -22}, True}, {{-19, -13}, 
+                    True}, {{9, 15}, True}, {{18, 16}, True}, {{2, 4}, 
+                    True}, {{-9, -10}, True}, {{7, 9}, True}, {{-1, 3}, 
+                    True}, {{22, 24}, True}, {{13, 16}, True}, {{-20, -16}, 
+                    True}, {{21, 26}, True}, {{-19, -13}, True}, {{-3, -4}, 
+                    True}, {{24, 27}, True}, {{19, 18}, True}, {{-8, -6}, 
+                    True}, {{13, 14}, False}, {{24, 22}, True}, {{-20, -22}, 
+                    True}, {{-6, -9}, True}, {{1, 0}, True}, {{5, 4}, 
+                    True}, {{-19, -20}, True}, {{12, 10}, False}, {{-2, -7}, 
+                    True}, {{22, 25}, True}, {{-18, -17}, True}, {{-6, -10}, 
+                    True}, {{-2, -6}, True}, {{15, 17}, True}, {{8, 9}, 
+                    True}, {{21, 22}, True}, {{-1, 2}, True}, {{22, 17}, 
+                    True}, {{-7, -3}, True}, {{11, 7}, True}, {{4, 1}, 
+                    True}, {{-19, -21}, True}, {{19, 18}, True}, {{-15, -18}, 
+                    True}, {{14, 20}, True}, {{20, 15}, True}, {{-9, -7}, 
+                    True}, {{9, 14}, True}, {{14, 16}, True}, {{7, 6}, 
+                    True}, {{3, 1}, False}, {{-20, -25}, True}, {{14, 13}, 
+                    True}, {{-21, -18}, True}, {{5, 2}, True}, {{-10, -9}, 
+                    False}, {{-17, -18}, True}, {{-5, -1}, True}, {{6, 5}, 
+                    True}, {{-17, -14}, True}, {{-21, -27}, 
+                    True}, {{-24, -29}, True}, {{-20, -18}, True}, {{6, 8}, 
+                    True}, {{17, 14}, True}, {{-24, -25}, True}, {{5, 9}, 
+                    True}, {{-10, -9}, True}, {{5, 1}, True}, {{-3, -6}, 
+                    True}, {{11, 10}, True}, {{14, 15}, True}, {{-23, -25}, 
+                    True}, {{-18, -17}, True}, {{2, 0}, True}, {{15, 12}, 
+                    False}, {{4, 10}, True}, {{11, 14}, True}, {{-8, -11}, 
+                    True}, {{-18, -16}, True}, {{-24, -23}, 
+                    True}, {{-19, -23}, True}}}}, {
+                   DateObject[{2018, 10, 13}, 
+                    
+                    TimeObject[{21, 11, 41.209715`8.36757458899875}, 
+                    TimeZone -> -7.], TimeZone -> -7.], {
+                   11, {{{-5, -10}, True}, {{22, 20}, True}, {{-8, -2}, 
+                    True}, {{-10, -11}, True}, {{19, 23}, True}, {{17, 16}, 
+                    True}, {{-18, -13}, True}, {{3, 4}, False}, {{11, 16}, 
+                    True}, {{22, 21}, True}, {{-23, -20}, True}, {{-2, -3}, 
+                    True}, {{-17, -16}, True}, {{-15, -14}, True}, {{11, 12}, 
+                    True}, {{-11, -17}, True}, {{20, 23}, True}, {{4, 1}, 
+                    True}, {{-2, -5}, True}, {{13, 10}, True}, {{7, 12}, 
+                    True}, {{9, 5}, True}, {{-3, -9}, True}, {{8, 12}, 
+                    True}, {{6, 4}, True}, {{20, 21}, False}, {{-24, -25}, 
+                    True}, {{-20, -17}, True}, {{-14, -15}, True}, {{-3, -1}, 
+                    True}, {{-9, -11}, True}, {{-15, -13}, True}, {{-5, 0}, 
+                    True}, {{-23, -20}, True}, {{0, -1}, True}, {{7, 10}, 
+                    True}, {{8, 2}, True}, {{16, 13}, True}, {{-16, -14}, 
+                    True}, {{-2, -4}, True}, {{-20, -16}, True}, {{-4, -8}, 
+                    True}, {{2, 3}, True}, {{8, 5}, True}, {{11, 10}, 
+                    True}, {{8, 9}, True}, {{-21, -26}, True}, {{17, 16}, 
+                    False}, {{17, 19}, True}, {{13, 15}, True}, {{12, 15}, 
+                    True}, {{17, 11}, True}, {{-14, -11}, True}, {{4, 9}, 
+                    True}, {{-3, 1}, True}, {{1, 5}, True}, {{17, 16}, 
+                    True}, {{-17, -16}, True}, {{9, 6}, True}, {{15, 18}, 
+                    True}, {{7, 11}, True}, {{-22, -23}, True}, {{-15, -19}, 
+                    True}, {{-2, -3}, True}, {{-20, -23}, True}, {{0, -5}, 
+                    True}, {{-14, -12}, True}, {{9, 13}, True}, {{19, 13}, 
+                    True}, {{-20, -19}, True}, {{12, 9}, True}, {{-1, 1}, 
+                    True}, {{5, 6}, True}, {{-24, -23}, True}, {{22, 23}, 
+                    True}, {{24, 25}, True}, {{-8, -9}, True}, {{-10, -11}, 
+                    True}, {{-22, -19}, True}, {{5, 11}, True}, {{-10, -4}, 
+                    True}, {{-2, 0}, True}, {{3, 2}, True}, {{-14, -10}, 
+                    True}, {{-15, -11}, True}, {{-5, -7}, False}, {{-2, 2}, 
+                    True}, {{-19, -23}, True}, {{-11, -14}, True}, {{2, 3}, 
+                    True}, {{8, 3}, True}, {{-6, -9}, True}, {{14, 12}, 
+                    True}, {{-3, -7}, True}, {{4, 3}, True}, {{-5, -11}, 
+                    True}, {{8, 7}, True}, {{-14, -18}, True}, {{-16, -18}, 
+                    False}, {{17, 15}, True}}}}, {
+                   DateObject[{2018, 10, 14}, 
+                    TimeObject[{11, 18, 54.770735}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                   2, {{{2, 0}, True}, {{-7, -4}, True}, {{-17, -22}, 
+                    True}, {{8, 10}, True}, {{-17, -16}, True}, {{7, 9}, 
+                    True}, {{10, 9}, True}, {{-21, -19}, True}, {{-16, -13}, 
+                    True}, {{23, 19}, True}, {{9, 7}, True}, {{15, 11}, 
+                    True}, {{13, 11}, True}, {{-21, -19}, True}, {{3, 4}, 
+                    True}, {{13, 8}, True}, {{19, 14}, True}, {{-9, -5}, 
+                    True}, {{1, 0}, True}, {{23, 24}, True}, {{4, -2}, 
+                    True}, {{22, 28}, True}, {{6, 10}, True}, {{-11, -5}, 
+                    True}, {{-16, -14}, True}, {{0, -1}, True}, {{-1, -2}, 
+                    True}, {{-1, -6}, True}, {{5, 4}, True}, {{12, 15}, 
+                    True}, {{-23, -22}, True}, {{-15, -14}, True}, {{-6, -4}, 
+                    True}, {{-7, -8}, True}, {{20, 21}, True}, {{0, -2}, 
+                    True}, {{6, 7}, True}, {{-22, -19}, True}, {{-14, -16}, 
+                    True}, {{-17, -18}, False}, {{-17, -15}, True}, {{12, 13},
+                     True}, {{-9, -4}, True}, {{-9, -8}, False}, {{19, 23}, 
+                    True}, {{21, 18}, False}, {{22, 19}, True}, {{-23, -19}, 
+                    True}, {{-17, -13}, True}, {{-3, -4}, True}, {{5, 10}, 
+                    True}, {{-14, -11}, True}, {{-7, -5}, True}, {{12, 13}, 
+                    True}, {{13, 9}, True}, {{13, 14}, True}, {{-7, -5}, 
+                    True}, {{9, 15}, True}, {{24, 26}, True}, {{-11, -14}, 
+                    True}, {{1, 0}, False}, {{-2, -7}, True}, {{22, 24}, 
+                    True}, {{-23, -21}, True}, {{-8, -10}, False}, {{16, 20}, 
+                    True}, {{-17, -13}, True}, {{-16, -22}, True}, {{18, 22}, 
+                    True}, {{-6, -4}, True}, {{-10, -14}, True}, {{-15, -18}, 
+                    True}, {{-23, -18}, True}, {{5, 4}, True}, {{-6, -11}, 
+                    True}, {{-14, -9}, True}, {{-21, -20}, 
+                    False}, {{-17, -13}, True}, {{-14, -13}, True}, {{12, 11},
+                     False}, {{-9, -11}, True}, {{-13, -11}, True}, {{18, 21},
+                     True}, {{9, 8}, True}, {{-10, -14}, True}, {{14, 12}, 
+                    False}, {{-21, -23}, True}, {{-5, -1}, True}, {{14, 11}, 
+                    True}, {{12, 13}, True}, {{15, 13}, True}, {{-19, -17}, 
+                    True}, {{7, 9}, True}, {{-23, -26}, True}, {{-23, -26}, 
+                    True}, {{-9, -13}, True}, {{-16, -13}, True}, {{18, 20}, 
+                    True}, {{-3, -2}, False}, {{-22, -23}, True}}}}, {
+                   DateObject[{2018, 10, 15}, 
+                    TimeObject[{11, 29, 57.959642}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                   3, {{{-2, -5}, True}, {{-14, -13}, True}, {{-13, -19}, 
+                    True}, {{4, 8}, True}, {{4, -1}, True}, {{14, 13}, 
+                    True}, {{22, 24}, True}, {{8, 9}, True}, {{-18, -21}, 
+                    True}, {{-13, -16}, True}, {{-21, -26}, 
+                    True}, {{-15, -10}, True}, {{3, 1}, True}, {{-5, 1}, 
+                    True}, {{-10, -13}, True}, {{-24, -28}, 
+                    True}, {{-24, -25}, False}, {{-7, -6}, True}, {{4, 0}, 
+                    True}, {{1, -3}, True}, {{-23, -29}, True}, {{11, 13}, 
+                    True}, {{17, 16}, True}, {{18, 24}, True}, {{-20, -22}, 
+                    True}, {{4, -1}, True}, {{24, 18}, True}, {{-2, 1}, 
+                    True}, {{-19, -18}, True}, {{-7, -4}, True}, {{-16, -18}, 
+                    True}, {{7, 11}, True}, {{18, 15}, True}, {{-17, -15}, 
+                    True}, {{2, 3}, True}, {{-15, -18}, True}, {{-15, -19}, 
+                    True}, {{2, 0}, True}, {{-15, -17}, True}, {{22, 23}, 
+                    True}, {{-23, -24}, True}, {{-15, -14}, True}, {{-2, -5}, 
+                    True}, {{2, 0}, True}, {{11, 9}, True}, {{-24, -21}, 
+                    True}, {{-17, -20}, True}, {{-4, -9}, True}, {{14, 19}, 
+                    True}, {{6, 4}, True}, {{1, -4}, True}, {{19, 22}, 
+                    True}, {{-13, -9}, True}, {{16, 15}, False}, {{-2, 1}, 
+                    True}, {{0, 2}, True}, {{-13, -16}, True}, {{-12, -11}, 
+                    False}, {{11, 10}, True}, {{1, -1}, True}, {{-1, -5}, 
+                    True}, {{22, 19}, True}, {{22, 20}, True}, {{-2, 0}, 
+                    True}, {{19, 18}, True}, {{-19, -14}, True}, {{24, 25}, 
+                    True}, {{-2, -6}, True}, {{-12, -13}, True}, {{-21, -20}, 
+                    True}, {{1, -5}, True}, {{15, 11}, True}, {{0, 2}, 
+                    True}, {{19, 14}, True}, {{14, 16}, True}, {{-10, -16}, 
+                    True}, {{-24, -28}, True}, {{5, 6}, True}, {{-21, -17}, 
+                    True}, {{-7, -9}, True}, {{4, 8}, True}, {{17, 16}, 
+                    True}, {{-17, -20}, True}, {{-7, -11}, True}, {{-10, -11},
+                     True}, {{-19, -20}, True}, {{-18, -15}, True}, {{-2, -5},
+                     True}, {{-18, -12}, True}, {{6, 3}, True}, {{11, 17}, 
+                    True}, {{-6, -8}, True}, {{-11, -13}, True}, {{-10, -13}, 
+                    True}, {{12, 16}, True}, {{20, 22}, True}, {{10, 8}, 
+                    True}, {{-4, -7}, True}, {{12, 17}, True}, {{20, 15}, 
+                    True}}}}, {
+                   DateObject[{2018, 10, 16}, 
+                    TimeObject[{10, 45, 24.794594}, TimeZone -> -7.], 
+                    TimeZone -> -7.], {
+                   4, {{{11, 7}, True}, {{-15, -14}, True}, {{15, 17}, 
+                    True}, {{-17, -15}, True}, {{-16, -18}, True}, {{-5, -4}, 
+                    True}, {{-1, -2}, True}, {{-12, -13}, True}, {{-3, -6}, 
+                    True}, {{-16, -19}, True}, {{18, 15}, True}, {{12, 13}, 
+                    True}, {{-9, -13}, True}, {{-16, -17}, True}, {{-1, -3}, 
+                    True}, {{14, 15}, True}, {{17, 19}, True}, {{3, 5}, 
+                    True}, {{18, 21}, True}, {{-16, -20}, True}, {{0, -5}, 
+                    True}, {{9, 11}, True}, {{4, 2}, True}, {{5, 0}, True}, {{
+                    15, 18}, True}, {{-24, -20}, True}, {{-16, -14}, True}, {{
+                    12, 14}, True}, {{17, 12}, True}, {{-2, 0}, True}, {{12, 
+                    15}, True}, {{13, 10}, True}, {{-9, -11}, True}, {{16, 
+                    10}, True}, {{-24, -21}, True}, {{-19, -17}, True}, {{
+                    1, -2}, True}, {{-16, -19}, True}, {{-8, -9}, True}, {{6, 
+                    3}, True}, {{6, 3}, True}, {{-7, -10}, True}, {{-6, 0}, 
+                    True}, {{1, 0}, True}, {{-1, 2}, True}, {{8, 12}, 
+                    True}, {{-8, -9}, True}, {{-9, -10}, True}, {{-19, -20}, 
+                    True}, {{7, 6}, True}, {{19, 18}, True}, {{0, -5}, 
+                    True}, {{-24, -19}, True}, {{21, 20}, True}, {{-13, -11}, 
+                    True}, {{-16, -15}, False}, {{3, 4}, True}, {{-20, -19}, 
+                    True}, {{-20, -22}, True}, {{-19, -23}, True}, {{17, 13}, 
+                    True}, {{4, 3}, True}, {{21, 27}, True}, {{-4, -2}, 
+                    True}, {{-7, -6}, False}, {{-16, -17}, True}, {{-1, 2}, 
+                    True}, {{-22, -21}, False}, {{15, 10}, True}, {{-18, -17},
+                     True}, {{-4, -1}, False}, {{-10, -11}, True}, {{-10, -9},
+                     True}, {{12, 13}, True}, {{-18, -22}, True}, {{18, 15}, 
+                    True}, {{-15, -17}, True}, {{16, 18}, True}, {{-4, -1}, 
+                    True}, {{-8, -6}, True}, {{-24, -25}, True}, {{-15, -13}, 
+                    True}, {{13, 12}, True}, {{20, 19}, True}, {{18, 20}, 
+                    True}, {{10, 12}, True}, {{9, 11}, True}, {{-10, -13}, 
+                    True}, {{0, 1}, True}, {{8, 11}, True}, {{-3, 3}, 
+                    True}, {{-8, -6}, True}, {{-24, -19}, True}, {{-6, -5}, 
+                    True}, {{23, 25}, True}, {{14, 11}, True}, {{21, 20}, 
+                    False}, {{15, 18}, True}, {{16, 18}, True}, {{-13, -15}, 
+                    True}}}}}]; EmitSound[
+                Part[$CellContext`raw$9043, 1]]; $CellContext`enext$9044 = 
+               False, $CellContext`enext$9044 = 
+               True; $CellContext`e1$9044 = ($CellContext`e2$9044 = 
+                False); $CellContext`name1$9044 = "[1]"], Enabled -> 
+            Dynamic[$CellContext`e2$9044]], 
+           Button[
+           ">", $CellContext`raw$9043 = $CellContext`TwoPitchReTrain["data", {{
+                 DateObject[{2018, 10, 13}, 
+                  
+                  TimeObject[{13, 25, 25.97506`8.167131541751818}, 
+                   TimeZone -> -7.], TimeZone -> -7.], {
+                 31, {{{-6, -4}, True}, {{15, 19}, True}, {{10, 9}, 
+                    True}, {{-4, -9}, True}, {{9, 8}, False}, {{9, 7}, 
+                    False}, {{5, 9}, True}, {{5, 3}, True}, {{-17, -14}, 
+                    True}, {{-21, -19}, True}, {{-18, -22}, True}, {{18, 21}, 
+                    True}, {{-6, -10}, True}, {{-19, -17}, True}, {{-4, -1}, 
+                    True}, {{6, 4}, True}, {{-24, -22}, True}, {{-5, 0}, 
+                    True}, {{6, 5}, True}, {{21, 18}, True}, {{20, 19}, 
+                    True}, {{-1, 1}, True}, {{16, 13}, True}, {{-13, -15}, 
+                    True}, {{5, 4}, True}, {{-1, -3}, True}, {{2, -1}, 
+                    True}, {{11, 9}, True}, {{22, 19}, True}, {{-3, -6}, 
+                    True}, {{19, 21}, True}, {{15, 20}, True}, {{21, 27}, 
+                    True}, {{22, 16}, True}, {{-13, -16}, True}, {{-21, -17}, 
+                    True}, {{-3, -4}, True}, {{-7, -6}, True}, {{3, 0}, 
+                    True}, {{-12, -15}, True}, {{-12, -9}, True}, {{9, 11}, 
+                    True}, {{-11, -15}, True}, {{-2, -3}, True}, {{0, -4}, 
+                    True}, {{-15, -11}, True}, {{-10, -6}, True}, {{0, 5}, 
+                    True}, {{3, 1}, True}, {{0, 3}, True}, {{16, 19}, 
+                    True}, {{-4, -1}, True}, {{-2, -5}, True}, {{4, -2}, 
+                    True}, {{6, 7}, True}, {{-1, 1}, True}, {{-14, -8}, 
+                    True}, {{16, 18}, True}, {{21, 20}, True}, {{3, 7}, 
+                    True}, {{3, 5}, False}, {{16, 17}, True}, {{24, 18}, 
+                    True}, {{5, 9}, True}, {{4, -1}, True}, {{23, 25}, 
+                    True}, {{-6, -4}, True}, {{2, 4}, True}, {{13, 14}, 
+                    True}, {{-17, -12}, True}, {{-16, -18}, True}, {{10, 9}, 
+                    False}, {{11, 15}, True}, {{22, 21}, True}, {{-3, -2}, 
+                    False}, {{-20, -21}, True}, {{-21, -19}, True}, {{21, 23},
+                     True}, {{-24, -23}, True}, {{-13, -17}, 
+                    True}, {{-16, -22}, True}, {{22, 20}, True}, {{8, 11}, 
+                    True}, {{4, 8}, True}, {{10, 9}, True}, {{-2, 0}, 
+                    True}, {{9, 13}, True}, {{-19, -23}, True}, {{-8, -10}, 
+                    False}, {{0, -3}, True}, {{-6, 0}, True}, {{16, 19}, 
+                    True}, {{8, 12}, True}, {{-4, 1}, True}, {{23, 25}, 
+                    True}, {{-21, -26}, True}, {{13, 10}, False}, {{-20, -23},
+                     True}, {{13, 16}, True}, {{14, 18}, True}}}}, {
+                 DateObject[{2018, 10, 13}, 
+                  
+                  TimeObject[{17, 43, 6.547292`7.56863669779946}, 
+                   TimeZone -> -7.], TimeZone -> -7.], {
+                 11, {{{16, 15}, True}, {{-13, -17}, True}, {{-16, -15}, 
+                    True}, {{6, 3}, True}, {{18, 19}, True}, {{13, 16}, 
+                    True}, {{-22, -26}, True}, {{-4, -5}, True}, {{20, 16}, 
+                    True}, {{19, 18}, False}, {{-23, -20}, True}, {{13, 19}, 
+                    True}, {{-13, -12}, True}, {{-19, -21}, 
+                    True}, {{-22, -28}, True}, {{22, 26}, True}, {{3, -2}, 
+                    True}, {{-1, 0}, True}, {{14, 18}, True}, {{-8, -12}, 
+                    True}, {{4, 0}, True}, {{-24, -22}, True}, {{-19, -13}, 
+                    True}, {{9, 15}, True}, {{18, 16}, True}, {{2, 4}, 
+                    True}, {{-9, -10}, True}, {{7, 9}, True}, {{-1, 3}, 
+                    True}, {{22, 24}, True}, {{13, 16}, True}, {{-20, -16}, 
+                    True}, {{21, 26}, True}, {{-19, -13}, True}, {{-3, -4}, 
+                    True}, {{24, 27}, True}, {{19, 18}, True}, {{-8, -6}, 
+                    True}, {{13, 14}, False}, {{24, 22}, True}, {{-20, -22}, 
+                    True}, {{-6, -9}, True}, {{1, 0}, True}, {{5, 4}, 
+                    True}, {{-19, -20}, True}, {{12, 10}, False}, {{-2, -7}, 
+                    True}, {{22, 25}, True}, {{-18, -17}, True}, {{-6, -10}, 
+                    True}, {{-2, -6}, True}, {{15, 17}, True}, {{8, 9}, 
+                    True}, {{21, 22}, True}, {{-1, 2}, True}, {{22, 17}, 
+                    True}, {{-7, -3}, True}, {{11, 7}, True}, {{4, 1}, 
+                    True}, {{-19, -21}, True}, {{19, 18}, True}, {{-15, -18}, 
+                    True}, {{14, 20}, True}, {{20, 15}, True}, {{-9, -7}, 
+                    True}, {{9, 14}, True}, {{14, 16}, True}, {{7, 6}, 
+                    True}, {{3, 1}, False}, {{-20, -25}, True}, {{14, 13}, 
+                    True}, {{-21, -18}, True}, {{5, 2}, True}, {{-10, -9}, 
+                    False}, {{-17, -18}, True}, {{-5, -1}, True}, {{6, 5}, 
+                    True}, {{-17, -14}, True}, {{-21, -27}, 
+                    True}, {{-24, -29}, True}, {{-20, -18}, True}, {{6, 8}, 
+                    True}, {{17, 14}, True}, {{-24, -25}, True}, {{5, 9}, 
+                    True}, {{-10, -9}, True}, {{5, 1}, True}, {{-3, -6}, 
+                    True}, {{11, 10}, True}, {{14, 15}, True}, {{-23, -25}, 
+                    True}, {{-18, -17}, True}, {{2, 0}, True}, {{15, 12}, 
+                    False}, {{4, 10}, True}, {{11, 14}, True}, {{-8, -11}, 
+                    True}, {{-18, -16}, True}, {{-24, -23}, 
+                    True}, {{-19, -23}, True}}}}, {
+                 DateObject[{2018, 10, 13}, 
+                  
+                  TimeObject[{21, 11, 41.209715`8.36757458899875}, 
+                   TimeZone -> -7.], TimeZone -> -7.], {
+                 11, {{{-5, -10}, True}, {{22, 20}, True}, {{-8, -2}, 
+                    True}, {{-10, -11}, True}, {{19, 23}, True}, {{17, 16}, 
+                    True}, {{-18, -13}, True}, {{3, 4}, False}, {{11, 16}, 
+                    True}, {{22, 21}, True}, {{-23, -20}, True}, {{-2, -3}, 
+                    True}, {{-17, -16}, True}, {{-15, -14}, True}, {{11, 12}, 
+                    True}, {{-11, -17}, True}, {{20, 23}, True}, {{4, 1}, 
+                    True}, {{-2, -5}, True}, {{13, 10}, True}, {{7, 12}, 
+                    True}, {{9, 5}, True}, {{-3, -9}, True}, {{8, 12}, 
+                    True}, {{6, 4}, True}, {{20, 21}, False}, {{-24, -25}, 
+                    True}, {{-20, -17}, True}, {{-14, -15}, True}, {{-3, -1}, 
+                    True}, {{-9, -11}, True}, {{-15, -13}, True}, {{-5, 0}, 
+                    True}, {{-23, -20}, True}, {{0, -1}, True}, {{7, 10}, 
+                    True}, {{8, 2}, True}, {{16, 13}, True}, {{-16, -14}, 
+                    True}, {{-2, -4}, True}, {{-20, -16}, True}, {{-4, -8}, 
+                    True}, {{2, 3}, True}, {{8, 5}, True}, {{11, 10}, 
+                    True}, {{8, 9}, True}, {{-21, -26}, True}, {{17, 16}, 
+                    False}, {{17, 19}, True}, {{13, 15}, True}, {{12, 15}, 
+                    True}, {{17, 11}, True}, {{-14, -11}, True}, {{4, 9}, 
+                    True}, {{-3, 1}, True}, {{1, 5}, True}, {{17, 16}, 
+                    True}, {{-17, -16}, True}, {{9, 6}, True}, {{15, 18}, 
+                    True}, {{7, 11}, True}, {{-22, -23}, True}, {{-15, -19}, 
+                    True}, {{-2, -3}, True}, {{-20, -23}, True}, {{0, -5}, 
+                    True}, {{-14, -12}, True}, {{9, 13}, True}, {{19, 13}, 
+                    True}, {{-20, -19}, True}, {{12, 9}, True}, {{-1, 1}, 
+                    True}, {{5, 6}, True}, {{-24, -23}, True}, {{22, 23}, 
+                    True}, {{24, 25}, True}, {{-8, -9}, True}, {{-10, -11}, 
+                    True}, {{-22, -19}, True}, {{5, 11}, True}, {{-10, -4}, 
+                    True}, {{-2, 0}, True}, {{3, 2}, True}, {{-14, -10}, 
+                    True}, {{-15, -11}, True}, {{-5, -7}, False}, {{-2, 2}, 
+                    True}, {{-19, -23}, True}, {{-11, -14}, True}, {{2, 3}, 
+                    True}, {{8, 3}, True}, {{-6, -9}, True}, {{14, 12}, 
+                    True}, {{-3, -7}, True}, {{4, 3}, True}, {{-5, -11}, 
+                    True}, {{8, 7}, True}, {{-14, -18}, True}, {{-16, -18}, 
+                    False}, {{17, 15}, True}}}}, {
+                 DateObject[{2018, 10, 14}, 
+                  TimeObject[{11, 18, 54.770735}, TimeZone -> -7.], 
+                  TimeZone -> -7.], {
+                 2, {{{2, 0}, True}, {{-7, -4}, True}, {{-17, -22}, True}, {{
+                    8, 10}, True}, {{-17, -16}, True}, {{7, 9}, True}, {{10, 
+                    9}, True}, {{-21, -19}, True}, {{-16, -13}, True}, {{23, 
+                    19}, True}, {{9, 7}, True}, {{15, 11}, True}, {{13, 11}, 
+                    True}, {{-21, -19}, True}, {{3, 4}, True}, {{13, 8}, 
+                    True}, {{19, 14}, True}, {{-9, -5}, True}, {{1, 0}, 
+                    True}, {{23, 24}, True}, {{4, -2}, True}, {{22, 28}, 
+                    True}, {{6, 10}, True}, {{-11, -5}, True}, {{-16, -14}, 
+                    True}, {{0, -1}, True}, {{-1, -2}, True}, {{-1, -6}, 
+                    True}, {{5, 4}, True}, {{12, 15}, True}, {{-23, -22}, 
+                    True}, {{-15, -14}, True}, {{-6, -4}, True}, {{-7, -8}, 
+                    True}, {{20, 21}, True}, {{0, -2}, True}, {{6, 7}, 
+                    True}, {{-22, -19}, True}, {{-14, -16}, 
+                    True}, {{-17, -18}, False}, {{-17, -15}, True}, {{12, 13},
+                     True}, {{-9, -4}, True}, {{-9, -8}, False}, {{19, 23}, 
+                    True}, {{21, 18}, False}, {{22, 19}, True}, {{-23, -19}, 
+                    True}, {{-17, -13}, True}, {{-3, -4}, True}, {{5, 10}, 
+                    True}, {{-14, -11}, True}, {{-7, -5}, True}, {{12, 13}, 
+                    True}, {{13, 9}, True}, {{13, 14}, True}, {{-7, -5}, 
+                    True}, {{9, 15}, True}, {{24, 26}, True}, {{-11, -14}, 
+                    True}, {{1, 0}, False}, {{-2, -7}, True}, {{22, 24}, 
+                    True}, {{-23, -21}, True}, {{-8, -10}, False}, {{16, 20}, 
+                    True}, {{-17, -13}, True}, {{-16, -22}, True}, {{18, 22}, 
+                    True}, {{-6, -4}, True}, {{-10, -14}, True}, {{-15, -18}, 
+                    True}, {{-23, -18}, True}, {{5, 4}, True}, {{-6, -11}, 
+                    True}, {{-14, -9}, True}, {{-21, -20}, 
+                    False}, {{-17, -13}, True}, {{-14, -13}, True}, {{12, 11},
+                     False}, {{-9, -11}, True}, {{-13, -11}, True}, {{18, 21},
+                     True}, {{9, 8}, True}, {{-10, -14}, True}, {{14, 12}, 
+                    False}, {{-21, -23}, True}, {{-5, -1}, True}, {{14, 11}, 
+                    True}, {{12, 13}, True}, {{15, 13}, True}, {{-19, -17}, 
+                    True}, {{7, 9}, True}, {{-23, -26}, True}, {{-23, -26}, 
+                    True}, {{-9, -13}, True}, {{-16, -13}, True}, {{18, 20}, 
+                    True}, {{-3, -2}, False}, {{-22, -23}, True}}}}, {
+                 DateObject[{2018, 10, 15}, 
+                  TimeObject[{11, 29, 57.959642}, TimeZone -> -7.], 
+                  TimeZone -> -7.], {
+                 3, {{{-2, -5}, True}, {{-14, -13}, True}, {{-13, -19}, 
+                    True}, {{4, 8}, True}, {{4, -1}, True}, {{14, 13}, 
+                    True}, {{22, 24}, True}, {{8, 9}, True}, {{-18, -21}, 
+                    True}, {{-13, -16}, True}, {{-21, -26}, 
+                    True}, {{-15, -10}, True}, {{3, 1}, True}, {{-5, 1}, 
+                    True}, {{-10, -13}, True}, {{-24, -28}, 
+                    True}, {{-24, -25}, False}, {{-7, -6}, True}, {{4, 0}, 
+                    True}, {{1, -3}, True}, {{-23, -29}, True}, {{11, 13}, 
+                    True}, {{17, 16}, True}, {{18, 24}, True}, {{-20, -22}, 
+                    True}, {{4, -1}, True}, {{24, 18}, True}, {{-2, 1}, 
+                    True}, {{-19, -18}, True}, {{-7, -4}, True}, {{-16, -18}, 
+                    True}, {{7, 11}, True}, {{18, 15}, True}, {{-17, -15}, 
+                    True}, {{2, 3}, True}, {{-15, -18}, True}, {{-15, -19}, 
+                    True}, {{2, 0}, True}, {{-15, -17}, True}, {{22, 23}, 
+                    True}, {{-23, -24}, True}, {{-15, -14}, True}, {{-2, -5}, 
+                    True}, {{2, 0}, True}, {{11, 9}, True}, {{-24, -21}, 
+                    True}, {{-17, -20}, True}, {{-4, -9}, True}, {{14, 19}, 
+                    True}, {{6, 4}, True}, {{1, -4}, True}, {{19, 22}, 
+                    True}, {{-13, -9}, True}, {{16, 15}, False}, {{-2, 1}, 
+                    True}, {{0, 2}, True}, {{-13, -16}, True}, {{-12, -11}, 
+                    False}, {{11, 10}, True}, {{1, -1}, True}, {{-1, -5}, 
+                    True}, {{22, 19}, True}, {{22, 20}, True}, {{-2, 0}, 
+                    True}, {{19, 18}, True}, {{-19, -14}, True}, {{24, 25}, 
+                    True}, {{-2, -6}, True}, {{-12, -13}, True}, {{-21, -20}, 
+                    True}, {{1, -5}, True}, {{15, 11}, True}, {{0, 2}, 
+                    True}, {{19, 14}, True}, {{14, 16}, True}, {{-10, -16}, 
+                    True}, {{-24, -28}, True}, {{5, 6}, True}, {{-21, -17}, 
+                    True}, {{-7, -9}, True}, {{4, 8}, True}, {{17, 16}, 
+                    True}, {{-17, -20}, True}, {{-7, -11}, True}, {{-10, -11},
+                     True}, {{-19, -20}, True}, {{-18, -15}, True}, {{-2, -5},
+                     True}, {{-18, -12}, True}, {{6, 3}, True}, {{11, 17}, 
+                    True}, {{-6, -8}, True}, {{-11, -13}, True}, {{-10, -13}, 
+                    True}, {{12, 16}, True}, {{20, 22}, True}, {{10, 8}, 
+                    True}, {{-4, -7}, True}, {{12, 17}, True}, {{20, 15}, 
+                    True}}}}, {
+                 DateObject[{2018, 10, 16}, 
+                  TimeObject[{10, 45, 24.794594}, TimeZone -> -7.], 
+                  TimeZone -> -7.], {
+                 4, {{{11, 7}, True}, {{-15, -14}, True}, {{15, 17}, 
+                    True}, {{-17, -15}, True}, {{-16, -18}, True}, {{-5, -4}, 
+                    True}, {{-1, -2}, True}, {{-12, -13}, True}, {{-3, -6}, 
+                    True}, {{-16, -19}, True}, {{18, 15}, True}, {{12, 13}, 
+                    True}, {{-9, -13}, True}, {{-16, -17}, True}, {{-1, -3}, 
+                    True}, {{14, 15}, True}, {{17, 19}, True}, {{3, 5}, 
+                    True}, {{18, 21}, True}, {{-16, -20}, True}, {{0, -5}, 
+                    True}, {{9, 11}, True}, {{4, 2}, True}, {{5, 0}, True}, {{
+                    15, 18}, True}, {{-24, -20}, True}, {{-16, -14}, True}, {{
+                    12, 14}, True}, {{17, 12}, True}, {{-2, 0}, True}, {{12, 
+                    15}, True}, {{13, 10}, True}, {{-9, -11}, True}, {{16, 
+                    10}, True}, {{-24, -21}, True}, {{-19, -17}, True}, {{
+                    1, -2}, True}, {{-16, -19}, True}, {{-8, -9}, True}, {{6, 
+                    3}, True}, {{6, 3}, True}, {{-7, -10}, True}, {{-6, 0}, 
+                    True}, {{1, 0}, True}, {{-1, 2}, True}, {{8, 12}, 
+                    True}, {{-8, -9}, True}, {{-9, -10}, True}, {{-19, -20}, 
+                    True}, {{7, 6}, True}, {{19, 18}, True}, {{0, -5}, 
+                    True}, {{-24, -19}, True}, {{21, 20}, True}, {{-13, -11}, 
+                    True}, {{-16, -15}, False}, {{3, 4}, True}, {{-20, -19}, 
+                    True}, {{-20, -22}, True}, {{-19, -23}, True}, {{17, 13}, 
+                    True}, {{4, 3}, True}, {{21, 27}, True}, {{-4, -2}, 
+                    True}, {{-7, -6}, False}, {{-16, -17}, True}, {{-1, 2}, 
+                    True}, {{-22, -21}, False}, {{15, 10}, True}, {{-18, -17},
+                     True}, {{-4, -1}, False}, {{-10, -11}, True}, {{-10, -9},
+                     True}, {{12, 13}, True}, {{-18, -22}, True}, {{18, 15}, 
+                    True}, {{-15, -17}, True}, {{16, 18}, True}, {{-4, -1}, 
+                    True}, {{-8, -6}, True}, {{-24, -25}, True}, {{-15, -13}, 
+                    True}, {{13, 12}, True}, {{20, 19}, True}, {{18, 20}, 
+                    True}, {{10, 12}, True}, {{9, 11}, True}, {{-10, -13}, 
+                    True}, {{0, 1}, True}, {{8, 11}, True}, {{-3, 3}, 
+                    True}, {{-8, -6}, True}, {{-24, -19}, True}, {{-6, -5}, 
+                    True}, {{23, 25}, True}, {{14, 11}, True}, {{21, 20}, 
+                    False}, {{15, 18}, True}, {{16, 18}, True}, {{-13, -15}, 
+                    True}}}}}]; EmitSound[
+              
+              Part[$CellContext`raw$9043, 
+               1]]; $CellContext`e1$9044 = ($CellContext`e2$9044 = 
+              True); $CellContext`enext$9044 = False; $CellContext`name1$9044 = 
+             "1"; $CellContext`name2$9044 = "2", Enabled -> 
+            Dynamic[$CellContext`enext$9044]]}}, TableAlignments -> Center]}, 
+       
+       TableForm[
+        Dynamic[
+         StringTemplate[
+         "\:6b63\:786e:``, \:9519\:8bef:``, \:767e\:5206\:6bd4: ``%"][
+          Count[$CellContext`truefalse$9044, True], 
+          Count[$CellContext`truefalse$9044, False], 
+          100 (Count[$CellContext`truefalse$9044, True]/If[
+           Length[$CellContext`truefalse$9044] > 0, 
+            Length[$CellContext`truefalse$9044], 1])]]]}, TableAlignments -> 
+      Center]]],"\"\:6bd4\:8f83\:97f3\:9ad8\""},
+  "Labeled",
+  DisplayFunction->(GridBox[{{
+      ItemBox[#2, Alignment -> {Left, Inherited}, DefaultBaseStyle -> 
+       "PanelLabel"]}, {
+      TagBox[
+       ItemBox[
+        PaneBox[
+         TagBox[#, "SkipImageSizeLevel"], Alignment -> {Center, Baseline}, 
+         BaselinePosition -> Baseline], DefaultBaseStyle -> "Labeled"], 
+       "SkipImageSizeLevel"]}}, 
+    GridBoxAlignment -> {"Columns" -> {{Center}}, "Rows" -> {{Center}}}, 
+    AutoDelete -> False, 
+    GridBoxItemSize -> {"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+    BaselinePosition -> {2, 1}]& ),
+  InterpretationFunction->(RowBox[{"Labeled", "[", 
+     RowBox[{#, ",", 
+       RowBox[{"{", #2, "}"}], ",", 
+       RowBox[{"{", 
+         RowBox[{"{", 
+           RowBox[{"Top", ",", "Left"}], "}"}], "}"}], ",", 
+       RowBox[{"DefaultLabelStyle", "\[Rule]", "\"PanelLabel\""}], ",", 
+       RowBox[{"LabelStyle", "\[Rule]", 
+         RowBox[{"{", "}"}]}], ",", 
+       RowBox[{"RotateLabel", "\[Rule]", "False"}], ",", 
+       RowBox[{"Spacings", "\[Rule]", "Automatic"}]}], "]"}]& )]], "Output",
+ CellChangeTimes->{3.748701202219936*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{979, 756},
-WindowMargins->{{159, Automatic}, {Automatic, 65}},
+WindowMargins->{{127, Automatic}, {Automatic, 30}},
 FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (2016\:5e7410\
 \:67088\:65e5)",
 StyleDefinitions->"Default.nb"
@@ -1868,36 +3738,50 @@ Cell[1251, 45, 73, 1, 64, "Section"],
 Cell[CellGroupData[{
 Cell[1349, 50, 151, 2, 44, "Subsection"],
 Cell[1503, 54, 11522, 268, 1006, "Input"]
-}, Closed]],
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[13062, 327, 76, 1, 36, "Subsection"],
+Cell[13062, 327, 76, 1, 44, "Subsection"],
 Cell[CellGroupData[{
 Cell[13163, 332, 193, 3, 32, "Input"],
-Cell[13359, 337, 8899, 178, 127, "Output"]
+Cell[13359, 337, 8923, 178, 127, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22319, 522, 135, 1, 64, "Section"],
+Cell[22343, 522, 135, 1, 64, "Section"],
 Cell[CellGroupData[{
-Cell[22479, 527, 537, 15, 54, "Input"],
-Cell[23019, 544, 471, 6, 32, "Output"]
+Cell[22503, 527, 537, 15, 54, "Input"],
+Cell[23043, 544, 497, 7, 32, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[23539, 556, 121, 1, 64, "Section"],
+Cell[23589, 557, 121, 1, 64, "Section"],
 Cell[CellGroupData[{
-Cell[23685, 561, 100, 1, 44, "Subsection"],
+Cell[23735, 562, 100, 1, 44, "Subsection"],
 Cell[CellGroupData[{
-Cell[23810, 566, 176, 2, 35, "Subsubsection"],
-Cell[23989, 570, 8490, 197, 494, "Input"]
+Cell[23860, 567, 176, 2, 35, "Subsubsection"],
+Cell[24039, 571, 13323, 321, 788, "Input"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[37399, 897, 115, 1, 35, "Subsubsection"],
+Cell[CellGroupData[{
+Cell[37539, 902, 139, 2, 32, "Input"],
+Cell[37681, 906, 38332, 900, 532, "Output"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[76086, 1814, 109, 1, 64, "Section"],
+Cell[CellGroupData[{
+Cell[76220, 1819, 94, 1, 44, "Subsection"],
+Cell[76317, 1822, 11853, 273, 1006, "Input"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[32516, 772, 115, 1, 29, "Subsubsection"],
+Cell[88207, 2100, 76, 1, 36, "Subsection"],
 Cell[CellGroupData[{
-Cell[32656, 777, 139, 2, 32, "Input"],
-Cell[32798, 781, 45572, 1054, 528, "Output"]
-}, Open  ]]
+Cell[88308, 2105, 250, 5, 32, "Input"],
+Cell[88561, 2112, 111400, 1594, 127, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
